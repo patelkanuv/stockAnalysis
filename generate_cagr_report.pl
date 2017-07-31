@@ -33,7 +33,7 @@ foreach my $rec (@raw_data) {
     };   
 }
 
-open(CFILE,">","stock_cagr_report.csv");
+open(CFILE,">","Reports/stock_cagr_report.csv");
 print CFILE $csv_writer->string();   
 close CFILE;
 
@@ -138,7 +138,7 @@ sub calc_cagr {
 sub get_records {
     my $parser = Text::CSV::Simple->new;
     $parser->field_map(qw/name code industry myOpinion investment cagr/);
-    my @data = $parser->read_file("Stock Analysis - Raw Data.csv");
+    my @data = $parser->read_file("raw_data/Stock Analysis - Raw Data.csv");
 
     return @data;
 }
