@@ -13,11 +13,12 @@ use HTML::TreeBuilder::XPath;
 use Text::CSV::Simple;
 
 my $csv_writer = Class::CSV->new(
-    fields          => [qw/Name Code CAGR_1 CAGR_2 CAGR_3 CAGR_4 CAGR_5 CAGR_6/],
+    fields          => [qw/Name Code myView CAGR_1 CAGR_2 CAGR_3 CAGR_4 CAGR_5 CAGR_6/],
     line_separator  => "\r\n"
 );
 
-$csv_writer->add_line([ 'Name', 'Code', 'CAGR 1 Year', 'CAGR 2 Year', 'CAGR 3 Year', 'CAGR 4 Year', 'CAGR 5 Year', 'CAGR 6 Year' ]);
+$csv_writer->add_line([ 'Name', 'Code', 'MyOpinion', 'CAGR 1 Year', 'CAGR 2 Year', 'CAGR 3 Year', 
+                        'CAGR 4 Year', 'CAGR 5 Year', 'CAGR 6 Year' ]);
 my @raw_data    = get_records();
 
 foreach my $rec (@raw_data) {
@@ -30,6 +31,8 @@ foreach my $rec (@raw_data) {
     catch {
         sleep(5);
         print $_, "Something went wrong while fetching ", $rec->{ 'name' }, "\n";
+        my $record  = get_content($rec->{ 'code' });
+        add_record($csv_writer, $record);
     };   
 }
 
@@ -40,10 +43,11 @@ close CFILE;
 sub add_record { 
     my ($csv_writer, $record) = @_;
     
-    print $record->{'name'}, " ", $record->{'code'}, " ", $record->{'cagr_1'}, " ", $record->{'cagr_3'}," ", $record->{'cagr_5'},"\n";
+    print $record->{'name'}, " ", $record->{'myView'} || "open", " ", $record->{'cagr_1'}, " ", $record->{'cagr_3'}," ", $record->{'cagr_5'},"\n";
     $csv_writer->add_line([
             $record->{'name'}, 
             $record->{'code'},
+            $record->{'myView'},
             $record->{'cagr_1'} || '-',
             $record->{'cagr_2'} || '-',
             $record->{'cagr_3'} || '-',
@@ -117,6 +121,8 @@ sub parse_response {
         $years++;        
     }
 
+    $stock_name =~ s/&/ and /;
+    $stock_data{ 'myView' } = get_my_opinion(\%stock_data);
     $stock_data{ 'name' }   = $stock_name;
     $stock_data{ 'code' }   = $code;
     $stock_data{ 'start' }  = $start;
@@ -128,6 +134,33 @@ sub parse_response {
     return \%stock_data;
 }
 
+sub get_my_opinion {
+    my ($stock_data)    = @_;
+    
+    return "" if !defined $stock_data->{'cagr_1'};
+    
+    if($stock_data->{'cagr_1'} >= 10 && $stock_data->{'cagr_3'} >= 10 && $stock_data->{'cagr_5'} >= 10) {
+        return "YES";
+    }
+    elsif(($stock_data->{'cagr_1'} >= 10 && $stock_data->{'cagr_3'} >= 10) 
+         || ($stock_data->{'cagr_1'} >= 10 && $stock_data->{'cagr_2'} >= 10)
+         || ($stock_data->{'cagr_2'} >= 10 && $stock_data->{'cagr_3'} >= 10)) {
+        return "YES";
+    }
+    elsif(($stock_data->{'cagr_3'} >= 10 && $stock_data->{'cagr_5'} >= 10)
+          || ($stock_data->{'cagr_1'} >= 8 && $stock_data->{'cagr_5'} >= 10)) {
+        return "Explore";
+    }
+    elsif(($stock_data->{'cagr_1'} >= 15 && $stock_data->{'cagr_3'} >= 8) 
+         || ($stock_data->{'cagr_3'} >= 8 && $stock_data->{'cagr_5'} >= 12)) {
+        return "Explore";
+    }
+    elsif($stock_data->{'cagr_1'} >= 20 ) {
+        return "Explore";
+    }
+    return "";
+}
+
 sub calc_cagr {
     my ($start, $end, $years)   = @_;
 
@@ -137,7 +170,7 @@ sub calc_cagr {
 
 sub get_records {
     my $parser = Text::CSV::Simple->new;
-    $parser->field_map(qw/name code industry myOpinion investment cagr/);
+    $parser->field_map(qw/name code industry myOpinion investment/);
     my @data = $parser->read_file("raw_data/Stock Analysis - Raw Data.csv");
 
     return @data;
