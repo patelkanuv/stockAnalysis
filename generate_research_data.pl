@@ -26,11 +26,12 @@ $csv_writer->add_line([
 ]);
 
 my @raw_data    = get_records();
-
+my $count = 0;
 foreach my $rec (@raw_data) {
-    next if  $rec->{ 'code' }  =~ /\D/;   
+    next if  $rec->{ 'code' }  =~ /\D/;
+    $count++;   
     try {
-        my $record  = get_content($rec->{ 'name'}, $rec->{ 'code' }, $rec->{ 'industry'}, $rec->{ 'myOpinion'});
+        my $record  = get_content($rec->{ 'name'}, $rec->{ 'code' }, $rec->{ 'industry'});
         add_record($csv_writer, $record);
     }
     catch {
@@ -38,7 +39,9 @@ foreach my $rec (@raw_data) {
         print $_, "Something went wrong while fetching ", $rec->{ 'name' }, "\n";
         my $record  = get_content($rec->{ 'name'}, $rec->{ 'code' }, $rec->{ 'industry'}, $rec->{ 'myOpinion'});
         add_record($csv_writer, $record);
-    };   
+    };
+
+    #last if $count == 100;   
 }
 
 #open(CFILE,">>","stock_report.csv");
@@ -76,7 +79,7 @@ sub add_record {
 }
 
 sub get_content {
-    my ($stock_name, $stock_code, $stock_ind, $stock_view) = @_;
+    my ($stock_name, $stock_code, $stock_ind) = @_;
     
     my $mech = WWW::Mechanize->new();
     my $response    = $mech->get("https://www.valueresearchonline.com");
@@ -86,7 +89,7 @@ sub get_content {
     $response    = $mech->get($stock_url);
 
     if ($response->is_success) {
-        return parse_response($response, $stock_ind, $stock_view);        
+        return parse_response($response, $stock_ind);        
     }
     else {
         die $response->status_line;
@@ -94,7 +97,7 @@ sub get_content {
 }
 
 sub parse_response {
-    my ($response, $stock_ind, $stock_view)  = @_;
+    my ($response, $stock_ind)  = @_;
     
     my %stock_data;
     my $tree= HTML::TreeBuilder::XPath->new;
@@ -151,7 +154,6 @@ sub parse_response {
     
     $stock_data{ 'name' }           = $peer_value[0];
     $stock_data{ 'industry' }       = $stock_ind;
-    $stock_data{ 'my_view' }        = $stock_view;
     $stock_data{ 'market_cap' }     = $peer_value[1];
     $stock_data{ 'stock_revenue' }  = $peer_value[2];
     $stock_data{ 'net_profit' }     = $peer_value[3];
@@ -159,6 +161,7 @@ sub parse_response {
     $stock_data{ 'ROE' }            = $peer_value[5];
     $stock_data{ 'PB' }             = $peer_value[6];
     $stock_data{ 'PE' }             = $peer_value[7];
+    $stock_data{ 'my_view' }        = get_my_opinion(\%stock_data);
 
     return \%stock_data;
 }
@@ -169,4 +172,62 @@ sub get_records {
     my @data = $parser->read_file("raw_data/Stock Analysis - Raw Data.csv");
 
     return @data;
+}
+
+sub get_my_opinion {
+    my ($stock_data)    = @_;
+       
+    if($stock_data->{'performance_1Y'} >= 10 && $stock_data->{'performance_3Y'} >= 10 
+       && $stock_data->{'performance_5Y'} >= 10 && $stock_data->{'performance_10Y'} >= 10
+       && $stock_data->{'PB'} <= 4 && $stock_data->{'PE'} <= 40) {
+        return "YES";
+    }
+    elsif($stock_data->{'performance_3Y'} >= 10 && $stock_data->{'performance_5Y'} >= 15 
+       && $stock_data->{'PB'} <= 4 && $stock_data->{'PE'} <= 40) {
+        return "YES";
+    }
+    elsif($stock_data->{'performance_3Y'} >= 15 && $stock_data->{'performance_5Y'} >= 10 
+          && $stock_data->{'PB'} <= 4 && $stock_data->{'PE'} <= 40) {
+        return "YES";
+    }
+    elsif($stock_data->{'performance_3Y'} >= 15 && $stock_data->{'performance_5Y'} >= 15 
+          && $stock_data->{'PB'} <= 5.5 && $stock_data->{'PE'} <= 30) {
+        return "YES";
+    }
+    elsif($stock_data->{'performance_3Y'} >= 10 && $stock_data->{'performance_5Y'} >= 15 
+          && $stock_data->{'PB'} <= 5 && $stock_data->{'industry'} eq 'Bank/Finance') {
+        return "YES";
+    }
+    elsif($stock_data->{'performance_5Y'} >= 15 && $stock_data->{'performance_10Y'} >= 15 
+          && $stock_data->{'PB'} <= 5 && $stock_data->{'industry'} eq 'Bank/Finance') {
+        return "YES";
+    }
+    elsif($stock_data->{'net_margin'} >= 4 && $stock_data->{'industry'} eq 'Bank/Finance') {
+        return "YES";
+    }
+    elsif($stock_data->{'net_margin'} >= 15 
+          && $stock_data->{'PB'} <= 5 && $stock_data->{'PE'} <= 25) {
+        return "YES";
+    }
+    elsif($stock_data->{'net_margin'} >= 20) {
+        return "YES";
+    }
+    elsif($stock_data->{'performance_1Y'} >= 30 && $stock_data->{'performance_3Y'} >= 25 
+          && $stock_data->{'net_margin'} >= 12 && $stock_data->{'PE'} <= 40) {
+        return "YES";
+    }
+    elsif($stock_data->{'performance_3Y'} >= 20 && $stock_data->{'performance_5Y'} >= 15 
+          && $stock_data->{'net_margin'} >= 8 ) {
+        return "Explore";
+    }
+    elsif($stock_data->{'performance_3Y'} >= 10 
+       && $stock_data->{'performance_5Y'} >= 15 && $stock_data->{'performance_10Y'} >= 15) {
+        return "Explore";    
+    }
+    elsif($stock_data->{'performance_3Y'} >= 15 
+       && $stock_data->{'performance_5Y'} >= 15 && $stock_data->{'performance_10Y'} >= 10) {
+        return "Explore";    
+    }
+    
+    return "";
 }
