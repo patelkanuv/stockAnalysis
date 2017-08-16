@@ -16,13 +16,14 @@ use Text::CSV::Simple;
 my $csv = Text::CSV->new();
 
 my $csv_writer = Class::CSV->new(
-    fields          => [qw/Name Industry MyView price Change Change% Volume PE PB Cap Revenue Profit NetMargin ROE 1M 3M 1Y 3Y 5Y 10Y/],
+    fields          => [
+        qw/Name Code Industry MyView price Change Change% Volume PE PB Cap Revenue Profit NetMargin ROE 1M 3M 1Y 3Y 5Y 10Y/ ],
     line_separator  => "\r\n"
 );
 
 $csv_writer->add_line([ 
-    'Name', 'Industry', 'myOpinion','Price', 'Change', 'Change%', 'Volume','PE', 'PB', 'Market cap', 'Revenue', 'Profit', 'NetMargin', 
-    'ROE', '1M','3M','1Y','3Y','5Y','10Y'
+    'Name', 'Code', 'Industry', 'myOpinion','Price', 'Change', 'Change%', 'Volume','PE', 'PB', 'Market cap', 'Revenue', 'Profit',
+    'NetMargin', 'ROE', '1M','3M','1Y','3Y','5Y','10Y'
 ]);
 
 my @raw_data    = get_records();
@@ -32,13 +33,13 @@ foreach my $rec (@raw_data) {
     $count++;   
     try {
         my $record  = get_content($rec->{ 'name'}, $rec->{ 'code' }, $rec->{ 'industry'});
-        add_record($csv_writer, $record);
+        add_record($csv_writer, $record, $rec->{ 'code' });
     }
     catch {
         sleep(5);
         print $_, "Something went wrong while fetching ", $rec->{ 'name' }, "\n";
         my $record  = get_content($rec->{ 'name'}, $rec->{ 'code' }, $rec->{ 'industry'}, $rec->{ 'myOpinion'});
-        add_record($csv_writer, $record);
+        add_record($csv_writer, $record, $rec->{ 'code' });
     };
 
     #last if $count == 100;   
@@ -50,12 +51,13 @@ print CFILE $csv_writer->string();
 close CFILE;
 
 sub add_record { 
-    my ($csv_writer, $record) = @_;
+    my ($csv_writer, $record, $code) = @_;
     
     print $record->{'name'}, "\n";
     
     $csv_writer->add_line([
-            $record->{'name'}, 
+            $record->{'name'},
+            $code, 
             $record->{'industry'},
             $record->{'my_view'},
             $record->{'stock_price'},
@@ -168,7 +170,7 @@ sub parse_response {
 
 sub get_records {
     my $parser = Text::CSV::Simple->new;
-    $parser->field_map(qw/name code industry myOpinion investment cagr/);
+    $parser->field_map(qw/name code industry investment/);
     my @data = $parser->read_file("raw_data/Stock Analysis - Raw Data.csv");
 
     return @data;

@@ -13,7 +13,7 @@ use HTML::TreeBuilder::XPath;
 use Text::CSV::Simple;
 
 my $csv_writer = Class::CSV->new(
-    fields          => [qw/Name Code myView CAGR_1 CAGR_2 CAGR_3 CAGR_4 CAGR_5 CAGR_6/],
+    fields          => [qw/Name code myView CAGR_1 CAGR_2 CAGR_3 CAGR_4 CAGR_5 CAGR_6/],
     line_separator  => "\r\n"
 );
 
@@ -25,14 +25,14 @@ foreach my $rec (@raw_data) {
     next if  $rec->{ 'code' }  =~ /\D/;   
     try {
         my $record  = get_content($rec->{ 'code' });
-        add_record($csv_writer, $record);
+        add_record($csv_writer, $record, $rec->{ 'code' });
         sleep(1);
     }
     catch {
         sleep(5);
         print $_, "Something went wrong while fetching ", $rec->{ 'name' }, "\n";
         my $record  = get_content($rec->{ 'code' });
-        add_record($csv_writer, $record);
+        add_record($csv_writer, $record, $rec->{ 'code' });
     };   
 }
 
@@ -41,12 +41,12 @@ print CFILE $csv_writer->string();
 close CFILE;
 
 sub add_record { 
-    my ($csv_writer, $record) = @_;
+    my ($csv_writer, $record, $code ) = @_;
     
     print $record->{'name'}, " ", $record->{'myView'} || "open", " ", $record->{'cagr_1'}, " ", $record->{'cagr_3'}," ", $record->{'cagr_5'},"\n";
     $csv_writer->add_line([
-            $record->{'name'}, 
-            $record->{'code'},
+            $record->{'name'},
+            $code, 
             $record->{'myView'},
             $record->{'cagr_1'} || '-',
             $record->{'cagr_2'} || '-',
@@ -170,7 +170,7 @@ sub calc_cagr {
 
 sub get_records {
     my $parser = Text::CSV::Simple->new;
-    $parser->field_map(qw/name code industry myOpinion investment/);
+    $parser->field_map(qw/name code industry investment/);
     my @data = $parser->read_file("raw_data/Stock Analysis - Raw Data.csv");
 
     return @data;
