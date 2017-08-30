@@ -33,7 +33,7 @@ print_records(@filtered_results);
 
 sub read_records_file {
     my $parser = Text::CSV::Simple->new();
-    $parser->field_map(qw/Name industry MyView price change change_perc volume PE 
+    $parser->field_map(qw/Name Code industry MyView price change change_perc volume PE 
                           PB Cap Revenue Profit NetMargin ROE 1M 3M 1Y 3Y 5Y 10Y/);
     my @data = $parser->read_file("Reports/stock_report.csv");
     
