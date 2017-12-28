@@ -36,10 +36,13 @@ foreach my $rec (@raw_data) {
         add_record($csv_writer, $record, $rec->{ 'code' });
     }
     catch {
-        sleep(5);
-        print $_, "Something went wrong while fetching ", $rec->{ 'name' }, "\n";
-        my $record  = get_content($rec->{ 'name'}, $rec->{ 'code' }, $rec->{ 'industry'}, $rec->{ 'myOpinion'});
-        add_record($csv_writer, $record, $rec->{ 'code' });
+	try {        
+		sleep(5);
+		print $_, "Something went wrong while fetching ", $rec->{ 'name' }, "\n";
+		my $record  = get_content($rec->{ 'name'}, $rec->{ 'code' }, $rec->{ 'industry'}, $rec->{ 'myOpinion'});
+		add_record($csv_writer, $record, $rec->{ 'code' });
+    
+	};
     };
 
     #last if $count == 100;   
