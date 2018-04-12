@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Initialize') {
             steps {
-                echo 'Building..'
+                echo 'Initializing..'
             }
         }
         stage('Build') {
@@ -14,12 +14,12 @@ pipeline {
         }
         stage('content-release') {
             steps {
-                echo 'Deploying....'
+                echo 'Deploying contents....'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'Deploying code....'
             }
         }
     }
