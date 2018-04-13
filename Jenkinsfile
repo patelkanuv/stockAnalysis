@@ -12,7 +12,11 @@ pipeline {
                 echo 'Building..'
             }
         }
-        input 'Deploy to Production'
+        stage 'Promotion' {
+        #    timeout(time: 1, unit: 'HOURS') {
+                input 'Deploy to Production?'
+        #    }
+        }
         stage('content-release') {
             steps {
                 echo 'Deploying contents....'
