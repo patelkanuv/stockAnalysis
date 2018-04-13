@@ -27,12 +27,8 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                step {
-                    echo 'Deploying code ....'
-                }
-                step {
-                    date
-                }
+                echo 'Deploying code ....'
+                echo 'Building Branch: ' + env.BRANCH_NAME
             }
         }
     }
