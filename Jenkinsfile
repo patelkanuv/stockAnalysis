@@ -13,9 +13,9 @@ pipeline {
             }
         }
         stage 'Promotion' {
-        #    timeout(time: 1, unit: 'HOURS') {
+            timeout(time: 1, unit: 'HOURS') {
                 input 'Deploy to Production?'
-        #    }
+            }
         }
         stage('content-release') {
             steps {
