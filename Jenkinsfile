@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Promotion') {
             steps {
-                timeout(time: 1, unit: 'HOURS') {
+                timeout(time: 1, unit: 'MINUTES') {
                     input 'Deploy to Production?'
                 }
             }
