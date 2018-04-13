@@ -27,8 +27,12 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying code ....'
-                date
+                step {
+                    echo 'Deploying code ....'
+                }
+                step {
+                    date
+                }
             }
         }
     }
