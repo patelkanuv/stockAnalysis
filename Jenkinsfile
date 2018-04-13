@@ -12,7 +12,7 @@ pipeline {
                 echo 'Building..'
             }
         }
-        stage 'Promotion' {
+        stage('Promotion') {
             timeout(time: 1, unit: 'HOURS') {
                 input 'Deploy to Production?'
             }
