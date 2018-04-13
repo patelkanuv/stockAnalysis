@@ -22,6 +22,7 @@ pipeline {
         stage('content-release') {
             steps {
                 echo 'Deploying contents....'
+                ls -la
             }
         }
         stage('Deploy') {
