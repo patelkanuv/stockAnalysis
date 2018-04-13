@@ -28,6 +28,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying code ....'
+                echo ${GIT_BRANCH}
             }
         }
     }
