@@ -12,6 +12,7 @@ pipeline {
                 echo 'Building..'
             }
         }
+        input 'Deploy to Production'
         stage('content-release') {
             steps {
                 echo 'Deploying contents....'
