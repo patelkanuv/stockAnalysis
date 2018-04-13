@@ -22,13 +22,12 @@ pipeline {
         stage('content-release') {
             steps {
                 echo 'Deploying contents....'
-                ls -la
             }
         }
         stage('Deploy') {
             steps {
                 echo 'Deploying code ....'
-                echo ${GIT_BRANCH} 
+                echo $GIT_BRANCH 
             }
         }
     }
