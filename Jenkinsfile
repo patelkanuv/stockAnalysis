@@ -5,8 +5,8 @@ pipeline {
         stage('Initialize') {
             steps {
                 echo 'Initializing..'
-                echo ${USER}
-                echo ${FILE}
+                echo "${USER}"
+                echo "${FILE}"
             }
         }
         stage('Build') {
