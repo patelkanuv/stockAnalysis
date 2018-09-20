@@ -1,491 +1,753 @@
 Name,Code,Industry,PriceView,CAGRView,FinalView,Investment
-"8K Miles Software Services",7765,IT,YES,YES,YES,
+"3M India",562,General,Explore,Explore,Explore,
+"8K Miles Software Services",7765,IT,,YES,Explore,
 ABB,292,Engineering,,,,
-"ABC Bearings",228,Engineering,Explore,,,
-ACC,338,Cement,,,,
-"ADF Foods",174,"Consumer Goods",Explore,,,
-"AIA Engineering",16461,Engineering,,,,
-"APL Apollo Tubes",4622,Auto,Explore,YES,YES,Planned
-"Aarti Industries",39,Chemicals,YES,,Explore,
+"ABC Bearings",228,Engineering,,,,
+ACC,338,Cement,,Explore,,
+"ADF Foods",174,"Consumer Goods",YES,,Explore,
+"AIA Engineering",16461,Engineering,Explore,,,
+"APL Apollo Tubes",4622,Auto,YES,YES,YES,
+"Aarti Industries",39,Chemicals,Explore,,,
 "Aban Offshore",42,General,,,,
 "Abbott India",2105,Pharma,Explore,YES,YES,YES
-"Adani Ports and Special Economic Zone",17950,Engineering,YES,YES,YES,Planned
-"Adani Power",20391,Utilities,,Explore,,
-"Adani Transmission",22965,Utilities,,YES,Explore,
-"Aditya Birla Fashion and Retail",22048,General,,YES,Explore,YES
-"Aditya Birla Money",18913,Bank/Finance,YES,,Explore,
+"Action Construction Equipment",16862,"real Estate",YES,YES,YES,
+"Adani Enterprises Ltd.",57,Engineering,,,,
+"Adani Ports and Special Economic Zone",17950,Engineering,YES,YES,YES,
+"Adani Power",20391,Utilities,,,,
+"Adani Transmission",22965,Utilities,YES,,Explore,
+"Aditya Birla Capital",23831,General,,YES,Explore,
+"Aditya Birla Fashion and Retail",22048,General,,,,
+"Aditya Birla Money",18913,Bank/Finance,YES,YES,YES,
 "Advanced Enzyme Technologies",23459,"Consumer Goods",YES,YES,YES,
-"Aegis Logistics",87,Services,Explore,Explore,Explore,
-"Ahluwalia Contracts",6295,Engineering,YES,YES,YES,Planned
+"Aegis Logistics",87,Services,Explore,YES,YES,
+"Ahluwalia Contracts",6295,Engineering,,YES,Explore,Planned
 "Ajanta Pharma",6424,Pharma,YES,YES,YES,YES
+"Ajmera Realty & Infra India",3603,"real Estate",YES,YES,YES,
 Aksharchem,359,Chemicals,YES,YES,YES,
-"Akzo Nobel India",1623,Pharma,,,,
-"Alembic Pharmaceuticals",21475,Pharma,,YES,Explore,
-"Alkem Laboratories",17126,Pharma,,YES,Explore,YES
+"Akzo Nobel India",1623,Pharma,,YES,Explore,
+"Alembic Pharmaceuticals",21475,Pharma,,Explore,,
+"Alkem Industries",17126,Pharma,,YES,Explore,
+"Alkyl Amines Chemicals",133,Chemicals,YES,YES,YES,
+"Allahabad Bank",6798,Bank/Finance,,,,
 "Allcargo Logistics",16704,Services,,,,
 "Alphageo (India)",144,Services,YES,YES,YES,
 "Amara Raja Batteries",161,Auto,,YES,Explore,YES
-"Ambuja Cements",1374,Cement,,YES,Explore,YES
+"Amber Enterpris",24149,"Consumer Goods",,YES,Explore,
+"Ambuja Cements",1374,Cement,,YES,Explore,
+"Amrutanjan Health Care",6093,Pharma,Explore,YES,YES,
 "Anant Raj",200,"Real Estate",,,,
-"Apar Industries",1378,Engineering,YES,,Explore,
-"Apollo Hospitals",239,Services,,YES,Explore,
-"Apollo Tyres",241,Auto,,,,YES
+"Andhra Bank",6470,Bank/Finance,,,,
+"Apar Industries",1378,Engineering,YES,Explore,Explore,
+"Apollo Hospitals",239,Services,,,,
+"Apollo Micro Systems",24144,Engineering,,,,
+"Apollo Pipes",7458,General,YES,YES,YES,
+"Apollo Tyres",241,Auto,,YES,Explore,YES
 Arcotech,18073,Engineering,,,,
 "Arihant Superstructures",7861,"Real Estate",YES,YES,YES,
-Arvind,284,Manufacturing,YES,Explore,Explore,YES
-"Ashok Leyland",306,Auto,YES,YES,YES,YES
-"Ashoka Buildcon",21008,Engineering,YES,YES,YES,Planned
+Arvind,284,Manufacturing,YES,YES,YES,YES
+"Asahi India Glass",291,General,Explore,,,
+"Asahi Songwon",17315,Chemicals,YES,,Explore,
+"Ashapura Intimates Fashion",22041,Manufacturing,YES,YES,YES,
+"Ashiana Housing",296,"Real Estate",,Explore,,
+"Ashok Leyland",306,Auto,Explore,,,YES
+"Ashoka Buildcon",21008,Engineering,,,,Planned
 "Asian Paints",329,Chemicals,Explore,,,YES
-"Astec Lifescience",20554,Pharma,,YES,Explore,
-"Astra Microwave Products",7374,General,,,,
+"Asian granito",17602,Manufacturing,YES,Explore,Explore,
+"Astec Lifescience",20554,Pharma,Explore,YES,YES,
+"Astra Microwave Products",7374,General,YES,,Explore,
+"AstraZenca Pharma India Ltd.",346,Pharma,,,,
 "Astral Poly Technik",17181,Chemicals,Explore,YES,YES,
-Atul,358,Chemicals,YES,,Explore,
+"Astron Paper",24095,"consumer Goods",,YES,Explore,
+Atul,358,Chemicals,YES,YES,YES,
 "Atul Auto",356,Auto,,,,
-"Au Small Finanace",21728,Bank/Finance,,YES,Explore,
-"Aurobindo Pharma",363,Pharma,YES,YES,YES,YES
+"Au Small Finanace",21728,Bank/Finance,,,,
+"Aurobindo Pharma",363,Pharma,,YES,Explore,YES
+"Automotive Axles",370,Auto,YES,YES,YES,
+"Avanti Feeds Ltd.",374,"Consumer Goods",YES,YES,YES,
 "Avenue Supermarts",22663,General,,YES,Explore,
-"Axis Bank",5745,Bank/Finance,,YES,Explore,YES
+"Axis Bank",5745,Bank/Finance,YES,,Explore,
 "BASF India",384,Chemicals,Explore,,,
-BEML,515,Engineering,,,,
-"BF Utilities",6711,Utilities,YES,YES,YES,Planned
+BEML,515,Engineering,,Explore,,
+"BF Utilities",6711,Utilities,YES,YES,YES,
 "BGR Energy Systems",18059,Utilities,,,,
-BHEL,520,Engineering,,,,YES
-BPCL,525,"Oil and Gas",YES,,Explore,YES
+BHEL,520,Engineering,,,,
+BPCL,525,"Oil and Gas",,,,
 BSE,23649,General,YES,YES,YES,YES
 "Bajaj Auto",18752,Auto,,,,YES
 "Bajaj Corp Ltd.",20914,"Consumer Goods",YES,,Explore,
 "Bajaj Electricals",418,"Consumer Goods",Explore,,,
 "Bajaj Finance",416,Bank/Finance,YES,YES,YES,YES
-"Bajaj Finserv",18751,Bank/Finance,YES,YES,YES,Planned
-"Balaji Telefilms",6598,General,YES,YES,YES,
-"Balkrishna Inds.",438,Auto,YES,,Explore,YES
+"Bajaj Finserv",18751,Bank/Finance,YES,YES,YES,YES
+"Bajaj Hindusthan Sugar Ltd.",420,"Consumer Goods",,,,
+"Bajaj Holdings & Investment Ltd.",417,Bank/Finance,YES,YES,YES,
+"Bal Pharma",427,Pharma,YES,,Explore,
+"Balaji Amines",430,Chemicals,YES,YES,YES,
+"Balaji Telefilms",6598,General,,,,
+"Balkrishna Inds.",438,Auto,YES,YES,YES,YES
 "Balmer Lawrie and Co.",440,Services,YES,,Explore,
-"Balrampur Chini Mills",443,General,YES,Explore,Explore,
-"Banco Products (I)",449,Auto,,,,YES
-"Bank of Baroda",451,Bank/Finance,,,,YES
-"Bata India",467,General,,,,
+"Balrampur Chini Mills",443,General,YES,YES,YES,
+"Banco Products (I)",449,Auto,YES,,Explore,YES
+"Bandhan Bank",23218,Bank/Finance,YES,YES,YES,
+"Bank of Baroda",451,Bank/Finance,,,,
+"Bank of India",452,Bank/Finance,,,,
+"Bata India",467,General,Explore,,,
 "Bayer CropScience",471,Chemicals,,,,
-"Berger Paints India",488,Chemicals,Explore,,,YES
-"Bhansali engineering",510,Chemicals,Explore,,,
+"Beekay Steel Industries",22825,Mines/Mineral,,YES,Explore,
+"Berger Paints India",488,Chemicals,Explore,YES,YES,
+"Bhansali engineering",510,Chemicals,Explore,YES,YES,
 "Bharat Bijlee",513,Engineering,YES,,Explore,
-"Bharat Electronics",516,Manufacturing,YES,Explore,Explore,YES
-"Bharat Financial Inclusion",20575,Bank/Finance,YES,YES,YES,Planned
-"Bharat Forge",518,Manufacturing,Explore,,,YES
+"Bharat Electronics",516,Manufacturing,,YES,Explore,YES
+"Bharat Financial Inclusion",20575,Bank/Finance,YES,YES,YES,
+"Bharat Forge",518,Manufacturing,Explore,YES,YES,
+"Bharat Rasayan",527,Chemicals,YES,YES,YES,
 "Bharti Airtel",6321,General,,,,
-"Bharti Infratel",21887,Services,,Explore,,
+"Bharti Infratel",21887,Services,YES,,Explore,
 Biocon,15774,Pharma,Explore,YES,YES,YES
-"Birla Corporation",564,Cement,Explore,YES,YES,
-"Bliss GVS Pharma",573,Pharma,YES,YES,YES,Planned
+"Birla Corporation",564,Cement,YES,YES,YES,
+"Bliss GVS Pharma",573,Pharma,,YES,Explore,Planned
+"Blue Dart Express Ltd.",582,Services,,,,
 "Blue Star",583,"Consumer Goods",,YES,Explore,
-"Bodal Chemicals",963,Chemicals,YES,Explore,Explore,
+"Bodal Chemicals",963,Chemicals,YES,,Explore,
 "Bombay Burmah",587,"Consumer Goods",Explore,,,
-"Bombay Dyeing and Mfg. Co.",590,Manufacturing,YES,,Explore,
+"Bombay Dyeing and Mfg. Co.",590,Manufacturing,Explore,YES,YES,
+"Bombay Rayon Fashions Ltd.",16384,Manufacturing,,,,
+"Borosil Glass",601,General,Explore,YES,YES,
 Bosch,2522,Auto,,,,
-"Brigade Enterprises",18074,"Real Estate",YES,YES,YES,
+"Brigade Enterprises",18074,"Real Estate",YES,,Explore,
 "Britannia Inds.",611,"Consumer Goods",Explore,Explore,Explore,
-"CCL Products (I)",797,"Consumer Goods",YES,Explore,Explore,
-CESC,623,Utilities,YES,YES,YES,YES
+"CARE Ratings Ltd.",5806,Services,YES,YES,YES,
+"CCL Products (I)",797,"Consumer Goods",,YES,Explore,
+CESC,623,Utilities,YES,,Explore,YES
 "CG Power and Industrial Solutions",831,Utilities,,,,
-CRISIL,827,General,,YES,Explore,
-"Cadila Healthcare",6179,Pharma,Explore,Explore,Explore,YES
-"Can Fin Homes",646,Bank/Finance,YES,YES,YES,YES
-"Capital First",18169,Bank/Finance,YES,YES,YES,YES
-"Caplin Point Laboratories",653,Pharma,YES,YES,YES,Planned
-"Carborundum Universal",659,Mines/Mineral,Explore,,,
+CRISIL,827,General,,,,
+"Cadila Healthcare",6179,Pharma,YES,YES,YES,YES
+"Camlin Fine Sciences",17152,Chemicals,,,,
+"Can Fin Homes",646,Bank/Finance,YES,YES,YES,
+"Canara Bank",6218,Bank/Finance,,,,
+"Capacite Infraprojects",23878,"Real Estate",,YES,Explore,
+"Capital First",18169,Bank/Finance,YES,YES,YES,
+"Caplin Point Laboratories",653,Pharma,YES,YES,YES,
+"Carborundum Universal",659,Mines/Mineral,YES,YES,YES,
 "Castrol India",665,"Oil and Gas",,,,
-Ceat,670,Auto,YES,,Explore,YES
-"Central Depository Services",23780,Services,,,,
-"Centum Electronics",6190,Engineering,,YES,Explore,
-"Century Plyboards (India)",15920,General,Explore,YES,YES,
-"Century Textiles and Inds.",689,Manufacturing,,,,
-"Cera Sanitaryware",7375,General,Explore,,,
+Ceat,670,Auto,,,,YES
+"Central Bank of India",6216,Bank/Finance,,,,
+"Central Depository Services",23780,Services,YES,YES,YES,
+"Centum Electronics",6190,Engineering,,,,
+"Century Plyboards (India)",15920,General,,YES,Explore,
+"Century Textiles and Inds.",689,Manufacturing,YES,,Explore,
+"Cera Sanitaryware",7375,General,,YES,Explore,
 "Chambal Fertilisers and Chem.",700,Chemicals,YES,,Explore,
-"Chennai Petro",2289,"Oil and Gas",YES,,Explore,
+"Chembond Chemicals",714,Chemicals,YES,,Explore,
+"Chennai Petro",2289,"Oil and Gas",,,,
 "Cholamandalam Invest. and Fin.",740,Bank/Finance,YES,YES,YES,YES
-Cipla,748,Pharma,,YES,Explore,YES
+Cipla,748,Pharma,,Explore,,YES
+"City Union Bank Ltd.",7239,Bank/Finance,YES,,Explore,
+"Clariant Chemicals",778,Chemicals,,,,
 "Claris Lifesciences",21086,Pharma,,,,
 "Coal India",4673,Mines/Mineral,,YES,Explore,YES
-"Cochin Shipyard",23846,Services,,,,
-"Coffee Day Enterprises",22579,Services,,YES,Explore,
+"Cochin Shipyard",23846,Services,YES,,Explore,
+"Coffee Day Enterprises",22579,Services,,,,
 "Colgate-Palmolive (I)",776,"Consumer Goods",,,,
 "Container Corp.",794,Services,,,,
-"Coromandel International",811,Chemicals,,,,
-"Cox and Kings",17184,Services,,YES,Explore,
-"Credit Analysis and Research",5806,Services,YES,,Explore,
+"Control Print",801,Services,YES,YES,YES,
+"Coromandel International",811,Chemicals,YES,,Explore,
+"Corporation Bank",814,Bank/Finance,,,,
+Cosco,816,"Consumer Goods",,Explore,,
+"Cox and Kings",17184,Services,,,,
+"Crompton Greaves",23321,Engineering,,,,
 "Cummins India",841,Engineering,,,,
 Cyient,5968,IT,,YES,Explore,
+"D.B.Corp Ltd.",20596,General,,,,
 "DB Realty",20665,"Real Estate",,,,
 "DCB Bank",7306,Bank/Finance,YES,YES,YES,
 "DCM Shriram",855,General,YES,,Explore,
-DLF,16884,"Real Estate",,,,
+"DHP India",4698,"Consumer Goods",YES,YES,YES,
+DLF,16884,"Real Estate",YES,,Explore,
 "Dabur India",870,"Consumer Goods",Explore,,,YES
-"Dalmia Bharat",21112,Cement,,YES,Explore,
-"Deccan Cements",892,Cement,YES,YES,YES,
+"Dalmia Bharat",21112,Cement,,,,
+"Deccan Cements",892,Cement,,,,
 "Deepak Fertilisers and Petro.",899,Chemicals,YES,,Explore,Planned
 "Deepak Nitrite",900,Chemicals,Explore,,,
-"Delta Corp",275,Services,Explore,YES,YES,Planned
+"Delta Corp",275,Services,YES,YES,YES,Planned
+"Den Networks Ltd.",20553,Services,,,,
+"Dena Bank",907,Bank/Finance,,,,
 "Dewan Housing Fin. Corpn.",923,Bank/Finance,YES,YES,YES,YES
-"Dhanuka Agritech",934,Chemicals,,,,
-"Dilip Buildcon",23477,Engineering,,YES,Explore,Planned
-"Dish TV India",17182,Services,,,,
+"Dhanuka Agritech",934,Chemicals,,Explore,,
+"Dilip Buildcon",23477,Engineering,,,,Planned
+"Disa India",1281,Engineering,,YES,Explore,
+"Dish TV India",17182,Services,,YES,Explore,
 "Dishman Carbogen Amcis",23756,Pharma,,,,YES
-"Divi's Laboratories",7301,Pharma,YES,YES,YES,YES
+"Divi's Laboratories",7301,Pharma,YES,Explore,Explore,YES
+"Dixon Technologies",23867,Engineering,,YES,Explore,
+"Dollar Industries",23732,Manufacturing,,,,
 "Dr. Lal Pathlabs",23201,Services,,YES,Explore,
-"Dr. Reddy's Lab",981,Pharma,,,,YES
+"Dr. Reddy's Lab",981,Pharma,,,,
 "Dredging Corp. of India",985,Services,,,,
 "EID-Parry (I)",1005,General,,,,
+"EIH Ltd.",1007,General,,,,
 "EPC Inds.",1011,Chemicals,,,,
 "Edelweiss Financial Services",17472,Bank/Finance,YES,YES,YES,YES
-"Elgi Equipments",1081,Engineering,,,,
-Emami,1053,"Consumer Goods",Explore,,,
-"Emkay Global Financial",1539,Bank/Finance,YES,Explore,Explore,
-"Endurance Technologies",16605,Auto,YES,,Explore,
-"Engineers India",23561,Engineering,,,,YES
-"Equitas Holdings",20604,Bank/Finance,YES,YES,YES,YES
+"Eicher Motors Ltd.",1029,Auto,YES,YES,YES,
+"Elantas Beck India",979,Chemicals,YES,,Explore,
+"Elgi Equipments",1053,Engineering,Explore,,,
+Emami,1539,"Consumer Goods",,,,
+"Emami Paper",20513,"consumer Goods",,,,
+"Emkay Global Financial",16605,Bank/Finance,YES,YES,YES,
+"Endurance Technologies",23561,Auto,,YES,Explore,
+"Engineers India",1081,Engineering,YES,,Explore,
+"Entertainment Network",16521,Services,,,,
+"Equitas Holdings",20604,Bank/Finance,YES,YES,YES,
 "Eros International Media",21007,General,YES,,Explore,
-Escorts,1095,Auto,Explore,,,
-"Eveready Industries (I)",1120,General,Explore,,,
-"Exide Inds.",1126,Auto,,Explore,,YES
+Escorts,1095,Auto,YES,YES,YES,
+"Essel Propack Ltd.",1102,General,YES,,Explore,
+"Eveready Industries (I)",1120,General,,,,
+"Everest Industries",1110,Cement,YES,Explore,Explore,
+"Excel Crop Care",15725,Chemicals,Explore,YES,YES,
+"Excel Industries",1125,Chemicals,YES,YES,YES,
+"Exide Inds.",1126,Auto,Explore,YES,YES,YES
 FDC,1130,Pharma,YES,,Explore,YES
-"Federal Bank",1140,Bank/Finance,YES,Explore,Explore,
+"Fairchem Speciality",1462,Chemicals,Explore,Explore,Explore,
+"Federal Bank",1140,Bank/Finance,,YES,Explore,
 "Federal Mogul Goetze",1316,Auto,,,,
+"Fiem Industries",16932,Auto,YES,YES,YES,
+"Fine Organic Industries",24432,Chemicals,,YES,Explore,
 "Finolex Cables",1158,General,YES,,Explore,
 "Finolex Inds.",1159,Chemicals,YES,,Explore,
+"Firstsource Solutions Ltd.",17137,Services,YES,,Explore,
+"Florence Investech",15711,Chemicals,YES,,Explore,
 "Fortis Healthcare (India)",17265,Services,,,,
+"Foseco India",1190,Chemicals,,YES,Explore,
+"Future Consumer Ltd.",21325,General,,YES,Explore,
 "Future Lifestyle Fashion",22107,Services,,,,
 "Future Retail",23379,General,,YES,Explore,
-GAIL,1263,"Oil and Gas",,,,
-"GE T and D (I)",6285,General,,Explore,,
+GAIL,1263,"Oil and Gas",YES,,Explore,
+"GE Power India Ltd.",6203,Utilities,,,,
+"GE T and D (I)",6285,General,,,,
 GHCL,1395,Chemicals,YES,,Explore,
-GMDC,1409,Mines/Mineral,YES,Explore,Explore,
-GNFC,1412,Chemicals,YES,,Explore,
-GSFC,1429,Chemicals,,,,
-"Gabriel India",1230,Auto,Explore,,,
+GMDC,1409,Mines/Mineral,YES,YES,YES,
+"GMR Infrastructure Ltd.",6707,"Real Estate",,,,
+"GNA Axles",23521,Auto,,YES,Explore,
+GNFC,1412,Chemicals,YES,YES,YES,
+GSFC,1429,Chemicals,YES,Explore,Explore,
+"Gabriel India",1230,Auto,YES,YES,YES,
+"Galaxy Surfactants",24179,"Consumer Goods",,YES,Explore,
+"Ganesha Ecosphere",1246,manufacturing,YES,Explore,Explore,
+"Garware Polyester",1259,Chemicals,YES,,Explore,
+"Garware Technical Fibres",1262,Manufacturing,YES,,Explore,
+"Gateway Distriparks Ltd.",15954,General,,,,
 Gati,6660,Services,,,,
-"Gayatri Projects",6741,"Real Estate",YES,,Explore,
+"Gayatri Projects",6741,"Real Estate",YES,YES,YES,
 "General Insurance Corporation",23934,Insurance,,,,
-"Geojit Financial Services",4796,Bank/Finance,YES,,Explore,
+"Genus power",1279,Utilities,,Explore,,
+"Geojit Financial Services",4796,Bank/Finance,YES,YES,YES,
 Gillette,1708,"Consumer Goods",Explore,,,
 "Glaxosmithkline Consumer Healthcare",3700,"Consumer Goods",,,,
-"Glenmark Pharma.",6194,Pharma,,YES,Explore,YES
-"Godfrey Phillips India",1313,"Consumer Goods",YES,,Explore,YES
-"Godrej Consumer Products",6734,"Consumer Goods",Explore,Explore,Explore,Planned
+"Glaxosmithkline Pharmaceuticals Ltd.",6830,Pharma,,,,
+"Glenmark Pharma.",6194,Pharma,,Explore,,YES
+"Goa Carbon",1307,"Oil and Gas",YES,,Explore,
+"Godawari Power & Ispat",16603,mines/Mineral,YES,YES,YES,
+"Godfrey Phillips India",1313,"Consumer Goods",,,,
+"Godrej Agrovet",17040,General,,,,
+"Godrej Consumer Products",6734,"Consumer Goods",Explore,,,
 "Godrej Industries",1315,General,,,,
-"Godrej Properties",5917,"Real Estate",Explore,Explore,Explore,YES
-"Goodyear India",1337,Auto,,,,
-"Granules India",7381,Pharma,YES,Explore,Explore,YES
-"Graphite India",1352,Engineering,Explore,,,
-"Grasim Industries",1353,Cement,YES,,Explore,Planned
+"Godrej Properties",5917,"Real Estate",Explore,,,YES
+"Goodyear India",1337,Auto,YES,,Explore,
+"Granules India",7381,Pharma,,YES,Explore,
+"Graphite India",1352,Engineering,YES,YES,YES,
+"Grasim Industries",1353,Cement,YES,,Explore,
 "Grauer and Weil (I)",1355,Chemicals,YES,,Explore,
 "Great Eastern Shipping Co.",1357,Services,,,,
 "Greaves Cotton",1359,Engineering,,,,
-"Greenply Inds.",1363,General,Explore,,,YES
-"Grindwell Norton",1368,Engineering,Explore,,,
+"Greenply Inds.",1363,General,,,,
+"Grindwell Norton",1368,Engineering,Explore,YES,YES,
 "Gruh Finance",1372,Bank/Finance,YES,,Explore,Planned
-"Gujarat Fluorochemicals",16522,Chemicals,YES,,Explore,
-"Gujarat Gas",1393,"Oil and Gas",,Explore,,
-"Gujarat Industries Power",22210,Utilities,,,,
-"Gujarat Pipavav Port",1399,Services,YES,,Explore,
-"Gujarat State Petronet",6211,"Oil and Gas",YES,,Explore,YES
+"Gufic Biosciences",4650,Pharma,Explore,,,
+"Gujarat Alkalies & Chemicals Ltd.",1373,Chemicals,YES,YES,YES,
+"Gujarat Fluorochemicals Ltd.",1393,Chemicals,,,,
+"Gujarat Gas Ltd.",22210,"Oil and Gas",,,,
+"Gujarat Industries Power",1399,Utilities,YES,,Explore,
+"Gujarat Pipavav Port",6211,Services,YES,,Explore,
+"Gujarat State Petronet",16522,"oil and Gas",YES,,Explore,YES
+"Gulf Oil Lubricants India",22449,"Oil and Gas",,YES,Explore,
+"HBL Power",3383,Utilities,,YES,Explore,
 "HCL Infosystems",1457,IT,,,,
 "HCL Technologies",6105,IT,YES,YES,YES,YES
 HDFC,1611,Bank/Finance,YES,YES,YES,YES
+"HDFC AMC",24486,General,,YES,Explore,YES
 "HDFC Bank",1459,Bank/Finance,YES,YES,YES,YES
-"HDFC Standard Life",24028,Insurance,,,,YES
+"HDFC Standard Life",24028,Insurance,,YES,Explore,YES
 HDIL,17466,"Real Estate",YES,,Explore,
-HEG,1460,Engineering,Explore,,,
+HEG,1460,Engineering,YES,YES,YES,
+HIL,1615,"real Estate",YES,,Explore,
 HSIL,1581,"Real Estate",,,,
-"Hatsun Agro",1504,"Consumer Goods",Explore,YES,YES,
-"Havells India",1505,Engineering,Explore,,,
-"Heidelberg Cement India",2554,Cement,Explore,Explore,Explore,
-"Heritage Foods",1516,"Consumer Goods",Explore,YES,YES,Planned
+"HT Media",16033,General,,,,
+"Hathway Cable & Datacom Ltd.",20667,Services,,,,
+"Hatsun Agro",1504,"Consumer Goods",Explore,,,
+"Havells India",1505,Engineering,Explore,Explore,Explore,
+"Hawkins Cookers",1506,"Consumer Goods",,,,
+"Healthcare global",23303,Pharma,,YES,Explore,
+"Heidelberg Cement India",2554,Cement,YES,Explore,Explore,
+"Heritage Foods",1516,"Consumer Goods",YES,Explore,Explore,
 "Hero Motocorp",1518,Auto,,,,YES
-"Hexaware Technologies",250,IT,YES,YES,YES,
+"Hexaware Technologies",250,IT,Explore,YES,YES,
+"Hikal Ltd",1527,General,YES,YES,YES,
+"Himachal Fut Com Ltd.",1533,Chemicals,YES,YES,YES,
+"Himadri Speciality Chemical",1536,Utilities,YES,YES,YES,
 "Himatsingka Seide",1540,Manufacturing,YES,,Explore,
 "Hindalco Inds.",1549,Mines/Mineral,YES,,Explore,YES
-"Hindustan Media Ventures",20900,General,YES,,Explore,
-"Hindustan Petroleum Corpn.",1578,"Oil and Gas",YES,,Explore,
+"Hinduja Global Solutions",17186,IT,YES,Explore,Explore,
+"Hindustan Construction Co. Ltd.",1559,"Real Estate",,,,
+"Hindustan Copper Ltd.",1560,Mines/Mineral,,YES,Explore,
+"Hindustan Foods",1567,"Consumer Goods",,YES,Explore,
+"Hindustan Media Ventures",20900,General,,,,
+"Hindustan Oil Exploration Co",1576,"Oil and Gas",YES,Explore,Explore,
+"Hindustan Petroleum Corpn.",1578,"Oil and Gas",YES,YES,YES,
 "Hindustan Unilever",1572,"Consumer Goods",Explore,,,YES
 "Hindustan Zinc",1585,Mines/Mineral,YES,YES,YES,YES
+"Honda Siel Power",6056,Engineering,,,,
 "Honeywell Automation India",4039,Engineering,Explore,YES,YES,
-"Housing & Urban Development Corpn.",6452,"Real Estate",,,,YES
-"ICICI Bank",1622,Bank/Finance,,YES,Explore,YES
-"ICICI Lombard General",23472,Insurance,,,,YES
-"ICICI Prudential Life Insurance Co. Ltd.",23527,Bank/Finance,YES,,Explore,Planned
+"Housing & Urban Development Corpn.",6452,"Real Estate",YES,,Explore,YES
+"ICICI Bank",1622,Bank/Finance,,,,
+"ICICI Lombard General",23472,Insurance,,YES,Explore,YES
+"ICICI Prudential Life Insurance Co. Ltd.",23527,Bank/Finance,,YES,Explore,YES
+"ICICI Securities",18743,Services,,,,
 ICRA,5851,Services,YES,,Explore,
+"IDBI Bank Ltd.",1755,Bank/Finance,,,,
 "IDFC Bank",23138,Bank/Finance,,,,
-"IIFL Holdings",6324,Bank/Finance,YES,YES,YES,
-"INOX Leisure",16526,Services,,,,
-"IRB Infrastructure Dev",18358,Engineering,,YES,Explore,Planned
-ITC,1642,"Consumer Goods",YES,Explore,Explore,YES
-"ITD Cementation India",5958,Cement,Explore,YES,YES,
-"India Cements",1668,Cement,,,,
+"IFB Industries Ltd.",1629,Engineering,Explore,Explore,Explore,
+"IFCI Ltd.",1756,General,,,,
+"IFGL Refractories",23898,General,,,,
+"IG Petrochemicals",1632,Chemicals,YES,,Explore,
+"IIFL Holdings",6324,Bank/Finance,YES,YES,YES,YES
+"IL&FS Transportation Networks Ltd.",20705,Services,,,,
+"INEOS Styrolution",472,Chemicals,,Explore,,
+"INOX Leisure",16526,Services,,Explore,,
+"IRB Infrastructure Dev",18358,Engineering,YES,,Explore,
+ITC,1642,"Consumer Goods",YES,,Explore,YES
+"ITD Cementation India",5958,Cement,YES,,Explore,
+"ITI Ltd.",1643,General,YES,YES,YES,
+"Igarashi Motors India Ltd.",625,Auto,,,,
+"India Cements",1668,Cement,YES,,Explore,
+"India Glycols",1672,Chemicals,YES,YES,YES,
 "Indiabulls Housing Finance",20721,Bank/Finance,YES,YES,YES,YES
-"Indiabulls Real Estate",17108,"Real Estate",YES,Explore,Explore,Planned
+"Indiabulls Integrated Services",21312,IT,,,,
+"Indiabulls Real Estate",17108,"Real Estate",YES,YES,YES,
 "Indiabulls Ventures",18170,Bank/Finance,YES,YES,YES,
-"Indian Oil Corp.",1699,"Oil and Gas",YES,,Explore,YES
-"Indo Count Inds.",1721,Manufacturing,YES,YES,YES,
-"Indraprastha Gas",15728,"Oil and Gas",YES,,Explore,Planned
-"Indusind Bank",1751,Bank/Finance,YES,Explore,Explore,YES
+"Indian Bank",5858,Bank/Finance,YES,,Explore,
+"Indian Hotels Co. Ltd.",1694,General,,,,
+"Indian Oil Corp.",1699,"Oil and Gas",YES,YES,YES,YES
+"Indian Overseas Bank",6713,Bank/Finance,,,,
+"Indo Count Inds.",1721,Manufacturing,,,,
+"Indoco Remedies Ltd.",15927,General,,,,
+"Indraprastha Gas",15728,"Oil and Gas",YES,YES,YES,YES
+"Indusind Bank",1751,Bank/Finance,YES,YES,YES,YES
 "Infibeam Incorporation",23319,Services,,YES,Explore,
-"Info Edge (India)",17003,General,YES,Explore,Explore,
-Infosys,1764,IT,YES,YES,YES,YES
-"Inox Wind",22767,Engineering,,YES,Explore,
-"Interglobe Aviation",23164,Services,,,,YES
+"Infinite Computer Solutions",20627,IT,YES,YES,YES,
+"Info Edge (India)",17003,General,Explore,Explore,Explore,
+Infosys,1764,IT,YES,,Explore,YES
+"Ingersoll Rand (India) Ltd.",1766,General,,,,
+"Inox Wind",22767,Engineering,,,,
+Insecticides,17304,Chemicals,YES,,Explore,
+"Intellect Design",22630,IT,,YES,Explore,
+"Interglobe Aviation",23164,Services,,Explore,,YES
+"International Paper",207,"consumer Goods",YES,,Explore,
 "Ipca Laboratories",1807,Pharma,,,,
-"J Kumar infra",18186,"Real Estate",YES,,Explore,
-"JB Chemicals and Pharma",1820,Pharma,YES,YES,YES,
+"J Kumar infra",18186,"Real Estate",,YES,Explore,
+"JB Chemicals and Pharma",1820,Pharma,,,,
 "JBF Industries",1821,Manufacturing,,,,
-"JBM Auto",6907,Auto,Explore,Explore,Explore,Planned
-"JK Cement",16006,Cement,YES,,Explore,
-"JK Lakshmi Cement",1832,Cement,,YES,Explore,
-"JK Tyre and Industries",1834,Auto,YES,,Explore,YES
+"JBM Auto",6907,Auto,YES,,Explore,
+"JK Cement",16006,Cement,,,,
+"JK Lakshmi Cement",1832,Cement,,,,
+"JK Paper",4651,"consumer Goods",YES,Explore,Explore,
+"JK Tyre and Industries",1834,Auto,,,,
 "JM Financial",1843,Bank/Finance,YES,YES,YES,
 "JSW Energy",20597,Utilities,,,,
-"JSW Steel",1922,Mines/Mineral,YES,Explore,Explore,YES
-"Jagran Prakashan",15765,General,YES,Explore,Explore,
+"JSW Steel",1922,Mines/Mineral,YES,,Explore,YES
+"JTEKT India",3724,Auto,Explore,,,
+"Jagran Prakashan",15765,General,,,,
+"Jai Corp Ltd.",1854,General,,,,
 "Jain Irrigation Systems",1860,Chemicals,,,,
+"Jammu & Kashmir Bank Ltd.",6517,Bank/Finance,,,,
+"Jamna Auto Inds",1874,Auto,Explore,YES,YES,
+"Jay Bharat Maruti",1884,Auto,,YES,Explore,
 "Jet Airways India",6708,Services,,,,
+"Jindal Poly Films Ltd.",1920,Manufacturing,,Explore,,
+"Jindal Saw Ltd.",3491,Mines/Mineral,,,,
+"Jindal Stainless (Hisar) Ltd.",23227,Mines/Mineral,,,,
 "Jindal Steel and Power",6170,Mines/Mineral,,,,
+"Jindal Worldwide",7232,manufacturing,YES,YES,YES,
 "Johnson Controls - Hitachi Air Conditioning India",196,"Consumer Goods",Explore,YES,YES,
-"Jubilant FoodWorks",20629,Services,,YES,Explore,
-"Jubilant Life Sciences",4293,Pharma,YES,,Explore,
-"Just Dial",22074,IT,,YES,Explore,
-"Jyothy Laboratories",18071,"Consumer Goods",,Explore,,
+"Jubilant FoodWorks",20629,Services,Explore,YES,YES,
+"Jubilant Life Sciences",4293,Pharma,YES,YES,YES,
+"Just Dial",22074,IT,YES,Explore,Explore,
+"Jyothy Laboratories",18071,"Consumer Goods",Explore,,,
 "KEC International",16548,Engineering,YES,,Explore,YES
+"KIC Metaliks",1972,mines/Mineral,,,,
 "KNR Construction",18249,"Real Estate",YES,YES,YES,
-"KPIT Technologies",5971,IT,,,,YES
-"KPR Mills",17606,Manufacturing,YES,Explore,Explore,
-KRBL,2075,"Consumer Goods",YES,,Explore,Planned
-"Kajaria Ceramics",1971,General,Explore,Explore,Explore,
+"KPIT Technologies",5971,IT,YES,Explore,Explore,
+"KPR Mills",17606,Manufacturing,YES,,Explore,
+KRBL,2075,"Consumer Goods",YES,,Explore,
+KSE,1962,"Consumer Goods",YES,YES,YES,
+"Kajaria Ceramics",1971,General,,,,
 "Kalpataru Power Trans",1979,Utilities,YES,,Explore,
-"Kalyani steels",1986,Mines/Mineral,YES,YES,YES,
+"Kalyani steels",1986,Mines/Mineral,YES,,Explore,
 "Kama Holdings",6894,Chemicals,YES,,Explore,
-"Kansai Nerolac Paints",1335,Chemicals,Explore,Explore,Explore,YES
-"Karnataka Bank",4962,Bank/Finance,,Explore,,
+"Kansai Nerolac Paints",1335,Chemicals,Explore,YES,YES,YES
+"Karnataka Bank",4962,Bank/Finance,,,,
 "Karur Vysya Bank",4967,Bank/Finance,,,,
-"Kaveri Seed Company",17700,"Consumer Goods",,,,
-"Kei Industries",2046,Engineering,YES,YES,YES,YES
-"Kewal Kiran Clothing",16600,Manufacturing,,,,
-"Kirloskar Oil Engines",21091,Engineering,,,,YES
-"Kirloskar Pneumatic Co.",2099,Engineering,,,,
-"Kitex Garments",2102,Manufacturing,YES,,Explore,
-"Kohinoor Foods",3481,"Consumer Goods",YES,,Explore,
+"Kaveri Seed Company",17700,"Consumer Goods",YES,,Explore,
+"Kei Industries",2046,Engineering,YES,,Explore,YES
+"Kennametal India",4463,Engineering,,,,
+"Kesoram Industries Ltd.",2058,General,,,,
+"Kewal Kiran Clothing",16600,Manufacturing,YES,,Explore,
+"Khadim India",24024,"consumer Goods",,YES,Explore,
+"Kirloskar Ferrous Inds.",2095,mines/Mineral,YES,YES,YES,
+"Kirloskar Oil Engines",21091,Engineering,,YES,Explore,
+"Kirloskar Pneumatic Co.",2099,Engineering,YES,YES,YES,
+"Kitex Garments",2102,Manufacturing,,,,
+"Kohinoor Foods",3481,"Consumer Goods",,,,
 "Kolte Patil Developers",18063,"Real Estate",YES,YES,YES,
 "Kotak Mahindra Bank",2118,Bank/Finance,YES,YES,YES,YES
 "Kothari Products",2123,"Consumer Goods",,,,
-"Kwality Ltd.",2157,"Consumer Goods",YES,Explore,Explore,
+"Kwality Ltd.",2157,"Consumer Goods",,Explore,,
 "L and T Finance Holdings",21427,Bank/Finance,YES,YES,YES,YES
 "L and T Infotech",23456,IT,,YES,Explore,
-"LG Balakrishnan and Bros.",2159,Engineering,YES,,Explore,
-"LIC Housing Fin.",2160,Bank/Finance,YES,YES,YES,YES
-"LT Foods",17056,"Consumer Goods",YES,YES,YES,Planned
-"Lakshmi Machine Works",2182,Engineering,,,,
-"Larsen and Toubro",2192,Engineering,,Explore,,YES
-"Laurus Labs",23623,Pharma,,YES,Explore,
-"Liberty Shoes",2211,General,,,,
+"L&T Technology Services Ltd.",23518,IT,,YES,Explore,
+"LG Balakrishnan and Bros.",2159,Engineering,,,,
+"LIC Housing Fin.",2160,Bank/Finance,YES,Explore,Explore,YES
+"LT Foods",17056,"Consumer Goods",YES,,Explore,
+"La Opala RG",2167,General,YES,Explore,Explore,
+"Lakshmi Machine Works",2182,Engineering,Explore,,,
+"Lakshmi Vilas Bank Ltd.",5006,Bank/Finance,,Explore,,
+"Larsen and Toubro",2192,Engineering,,,,YES
+"Laurus Labs",23623,Pharma,,,,
+"Lemon Tree Hotels",24290,Services,,,,
+"Liberty Shoes",2211,General,,Explore,,
+"Linde India Ltd.",397,General,,,,
 "Lumax auto tech",17083,Auto,YES,YES,YES,
-Lupin,2240,Pharma,,YES,Explore,YES
+Lupin,2240,Pharma,,,,YES
 "Lux Industries",23211,Manufacturing,,,,
-"M and M Financial Services",5039,Bank/Finance,YES,Explore,Explore,Planned
+"M and M Financial Services",5039,Bank/Finance,YES,YES,YES,
 "MM Forgings",2254,Mines/Mineral,YES,,Explore,
-MOIL,21084,Mines/Mineral,YES,Explore,Explore,
+"MMTC Ltd.",2256,General,,YES,Explore,
+MOIL,21084,Mines/Mineral,YES,YES,YES,
+MPS,5024,General,YES,,Explore,
 MRF,2261,Auto,YES,,Explore,
 "Magma Fincorp",6456,Bank/Finance,YES,,Explore,
-"Mahanagar Gas",23409,"Oil and Gas",,,,YES
-"Maharashtra Seamless",2313,Mines/Mineral,YES,Explore,Explore,
-"Mahindra Holidays and Resorts India",20333,Services,,YES,Explore,
-"Mahindra and Mahindra",2321,Auto,,,,YES
+"Mahanagar Gas",23409,"Oil and Gas",YES,,Explore,YES
+"Maharashtra Seamless",2313,Mines/Mineral,YES,YES,YES,
+"Mahindra CIE Automotive Ltd.",16732,Auto,,YES,Explore,
+"Mahindra Holidays and Resorts India",20333,Services,,,,
+"Mahindra Logistics",24011,Services,,YES,Explore,
+"Mahindra and Mahindra",2321,Auto,YES,,Explore,YES
+Majesco,22971,IT,,,,
 "Manappuram Finance",7106,Bank/Finance,YES,YES,YES,YES
+"Mangalore Refinery & Petrochemicals Ltd.",2346,"Oil and Gas",YES,,Explore,
 "Manpasand Beverages",22975,"Consumer Goods",,YES,Explore,
 Marico,2370,"Consumer Goods",Explore,,,Planned
-"Marksans Pharma",3996,Pharma,,,,
+"Marksans Pharma",3996,Pharma,,Explore,,
 "Maruti Suzuki India",6442,Auto,Explore,YES,YES,YES
-"Max Financial Services",2390,Bank/Finance,YES,Explore,Explore,YES
-"Mayur Uniquoters",2401,Manufacturing,YES,,Explore,
-"Meghmani Organics",17388,Chemicals,YES,,Explore,
-Mercator,2426,Services,YES,,Explore,
-Merck,6867,Pharma,YES,,Explore,
-MindTree,17165,IT,,YES,Explore,YES
+"Mas Financial Services",21437,Bank/Finance,YES,Explore,Explore,
+Mastek,2385,IT,YES,YES,YES,
+"Max Financial Services",2390,Bank/Finance,YES,,Explore,
+"Max India Ltd.",23254,General,,YES,Explore,
+"Mayur Uniquoters",2401,manufacturing,YES,Explore,Explore,
+"McLeod Russel India Ltd.",2408,General,,YES,Explore,
+"Meghmani Organics",17388,Chemicals,YES,YES,YES,
+Mercator,2426,Services,,,,
+Merck,6867,Pharma,Explore,,,
+MindTree,17165,IT,Explore,Explore,Explore,YES
+"Minda Corporation Ltd.",21701,Auto,,Explore,,
 "Minda Industries",15853,Auto,Explore,YES,YES,Planned
-"Mirza International",2466,"Consumer Goods",YES,,Explore,Planned
-"Monsanto India",2506,Chemicals,YES,Explore,Explore,
-"Motherson Sumi Systems",2519,Auto,Explore,YES,YES,Planned
+"Mirza International",2466,"Consumer Goods",,,,
+"Mold-Tek packaging",20747,General,,YES,Explore,
+"Monsanto India",2506,Chemicals,YES,,Explore,
+"Morganite Crucible India",1360,general,YES,,Explore,
+"Motherson Sumi Systems",2519,Auto,Explore,,,Planned
 "Motilal Oswal Financial",17686,Bank/Finance,YES,YES,YES,
 Mphasis,6481,IT,YES,,Explore,
+"Munjal Auto",7217,Auto,YES,Explore,Explore,
+"Munjal Showa",2546,Auto,,,,
+"Music Broadcast",22898,Services,,YES,Explore,
+"Muthoot Capital Services",5093,Bank/Finance,YES,YES,YES,
 "Muthoot Finance",16822,Bank/Finance,YES,YES,YES,YES
-"NBCC Ltd.",21650,Engineering,,YES,Explore,YES
+"NACL Industries",2582,Chemicals,Explore,YES,YES,
+"NBCC Ltd.",21650,Engineering,,,,YES
 NCC,2583,"Real Estate",YES,,Explore,
 "NCL Industries",2561,Cement,YES,YES,YES,
-NHPC,5107,Utilities,YES,,Explore,Planned
+NHPC,5107,Utilities,YES,,Explore,
 "NIIT Technologies",15854,IT,YES,,Explore,
-NOCIL,2622,Chemicals,YES,,Explore,
-"NRB Bearings",2576,Engineering,,,,
+"NLC India Ltd.",2662,General,YES,YES,YES,
+NMDC,2621,Mines/Mineral,YES,YES,YES,
+NOCIL,2622,Chemicals,YES,YES,YES,
+"NRB Bearings",2576,Engineering,YES,YES,YES,
 NTPC,5109,Utilities,,,,YES
-"Nandan Denim",16002,Manufacturing,YES,Explore,Explore,YES
+"Nandan Denim",16002,Manufacturing,,,,YES
 "Narayana Hrudayalaya",23212,Services,,YES,Explore,
 "Natco Pharma",2613,Pharma,YES,YES,YES,YES
-"National Aluminium Co.",2617,Mines/Mineral,,,,
-"Nava Bharat Ventures",2636,General,,,,
-"Navin Fluorine International",15717,Chemicals,YES,YES,YES,Planned
+"National Aluminium Co.",2617,Mines/Mineral,YES,YES,YES,
+"National Fertilizers Ltd.",2619,Chemicals,YES,,Explore,
+"Nava Bharat Ventures",2636,General,,YES,Explore,
+"Navin Fluorine International",15717,Chemicals,YES,YES,YES,YES
 "Navkar Corporation",23111,Services,YES,,Explore,
-"Nestle India",2654,"Consumer Goods",,,,
+"Navneet Education Ltd.",2640,General,,,,
+"Nectar Lifesciences",16019,Pharma,,YES,Explore,
+Nesco,2661,General,YES,Explore,Explore,
+"Nestle India",2654,"Consumer Goods",Explore,,,
+"Network18 Media & Investments Ltd.",17024,General,,,,
+"Newgen Software Technologies",24148,IT,,YES,Explore,
 Nilkamal,2676,Manufacturing,YES,,Explore,
 "Nucleus Software",2709,IT,YES,,Explore,
 "OCL India",2718,Cement,YES,YES,YES,
-ONGC,2730,"Oil and Gas",YES,,Explore,
-"Oberoi Realty",21033,"Real Estate",YES,,Explore,YES
-Omaxe,16821,"Real Estate",,,,
+ONGC,2730,"Oil and Gas",YES,YES,YES,
+"Oberoi Realty",21033,"Real Estate",YES,YES,YES,YES
+Omaxe,16821,"Real Estate",,YES,Explore,
 "Oracle Fin Ser Software",6608,IT,YES,,Explore,YES
+"Oricon Enterprises",2767,Chemicals,,,,
+"Orient Cement Ltd.",22002,Cement,,,,
+"Orient Electric",24182,Engineering,,Explore,,
+"Orient Paper",2761,"consumer Goods",YES,,Explore,
+"Orient Refractories",21624,General,YES,YES,YES,
+"Oriental Bank of Commerce",2765,Bank/Finance,,,,
+"Oriental Carbon & Chemicals",2766,Chemicals,YES,,Explore,
 "P and G Hygiene and Health Care",3042,"Consumer Goods",Explore,,,
-"PC Jeweller",21888,General,,YES,Explore,Planned
-"PI Industries",2806,Chemicals,Explore,Explore,Explore,Planned
-"PNB Housing Finance",15760,Bank/Finance,YES,Explore,Explore,Planned
-"PNC Infratech",22918,Services,,YES,Explore,
-"PTC India",15771,Services,,Explore,,YES
-PVR,16471,General,Explore,YES,YES,YES
+"PC Jeweller",21888,General,,YES,Explore,
+"PI Industries",2806,Chemicals,,,,
+"PNB Housing Finance",15760,Bank/Finance,YES,,Explore,
+"PNC Infratech",22918,General,,,,
+"PSP Projects",23749,"Real Estate",,YES,Explore,
+"PTC India",15771,Services,,,,
+PVR,16471,General,Explore,YES,YES,
 "Page Industries",17174,Manufacturing,Explore,YES,YES,
+"Panasonic Carbon India Co.",1728,Engineering,YES,,Explore,
+"Parag Milk Foods Ltd.",23372,"Consumer Goods",,YES,Explore,
 "Pennar Industries",2900,Mines/Mineral,,YES,Explore,
 "Persistent Systems",20707,IT,,YES,Explore,YES
-"Petronet LNG",15766,"Oil and Gas",YES,,Explore,YES
-Pfizer,2916,Pharma,,Explore,,
-"Phillips Carbon Black",2924,Chemicals,YES,,Explore,
-"Phoenix Mills",2928,"Real Estate",,,,
+"Petronet LNG",15766,"Oil and Gas",YES,Explore,Explore,YES
+Pfizer,2916,Pharma,,,,
+"Phillips Carbon Black",2924,Chemicals,YES,YES,YES,
+"Phoenix Mills",2928,"Real Estate",YES,,Explore,
 "Pidilite Industries",2933,Chemicals,Explore,Explore,Explore,YES
-"Piramal Enterprises",2667,Pharma,YES,YES,YES,YES
-"Poly Medicure",2963,Chemicals,,YES,Explore,Planned
-"Power Grid Corp.",5191,Utilities,YES,YES,YES,Planned
+"Pilani Investment",5181,Services,YES,,Explore,
+"Piramal Enterprises",2667,Pharma,YES,,Explore,YES
+"Plastiblends India",2953,Chemicals,YES,,Explore,
+"Polaris Consulting & Services Ltd.",6077,IT,,,,
+"Poly Medicure",2963,Chemicals,,YES,Explore,
+"Polyplex Corporation",2968,Chemicals,YES,,Explore,
+"Power Finance Corporation Ltd.",5190,Services,YES,,Explore,
+"Power Grid Corp.",5191,Utilities,YES,,Explore,Planned
+"Power Mech Projects",23095,Engineering,,Explore,,
 "Prabhat Dairy",23127,"Consumer Goods",,YES,Explore,
 "Praj Industries",2982,Engineering,,,,
-"Prestige Estates Projects",21040,"Real Estate",,YES,Explore,YES
+"Prataap Snacks",23889,"Consumer Goods",,YES,Explore,
+"Prestige Estates Projects",21040,"Real Estate",,,,YES
+Pricol,23668,Auto,,,,
+"Prism Johnson",3036,Cement,,,,
 "Quess corp",23411,Bank/Finance,YES,YES,YES,
-"RBL Bank",21457,Bank/Finance,,,,YES
-"Radico Khaitan",15666,"Consumer Goods",,,,
+"RBL Bank",21457,Bank/Finance,YES,Explore,Explore,YES
+"Radico Khaitan",15666,"Consumer Goods",Explore,,,
 "Rain Industries",3039,Cement,YES,,Explore,
-"Rajesh Exports",3159,General,YES,YES,YES,Planned
-"Rallis India",3177,Chemicals,,,,YES
-"Ramkrishna Forgings",15811,Engineering,Explore,,,
-"Rane Holdings",3197,Auto,YES,YES,YES,
-"Ratnamani Metals and Tubes",3220,Mines/Mineral,YES,,Explore,YES
-Raymond,3232,General,,,,
-"Redington India",15683,IT,YES,YES,YES,
+"Rajesh Exports",3159,General,YES,YES,YES,YES
+"Rajratan Global Wire",3172,Auto,,YES,Explore,
+"Rallis India",3177,Chemicals,,,,
+"Ramco Industries",5229,"real Estate",YES,,Explore,
+"Ramkrishna Forgings",15811,Engineering,,,,
+"Rane Holdings",3197,Auto,YES,,Explore,
+"Rashtriya Chemicals & Fertilizers Ltd.",3208,Chemicals,,,,
+"Ratnamani Metals and Tubes",3220,Mines/Mineral,YES,Explore,Explore,
+"RattanIndia Power Ltd.",20503,General,,,,
+Raymond,3232,General,YES,,Explore,
+"Redington India",15683,IT,,YES,Explore,
 "Relaxo Footwears",3247,General,Explore,Explore,Explore,Planned
 "Reliance Capital",3249,Bank/Finance,YES,YES,YES,
-"Reliance Defence and Engineering",17433,Engineering,,Explore,,
-"Reliance Industries",3252,"Oil and Gas",YES,,Explore,YES
+"Reliance Defence and Engineering",17433,Engineering,,,,
+"Reliance Industrial Infrastructure",3251,"Real Estate",,,,
+"Reliance Industries",3252,"Oil and Gas",YES,YES,YES,YES
+"Reliance Infrastructure Ltd.",403,General,,,,
+"Reliance Nippon",24009,General,YES,YES,YES,
+"Reliance Power Ltd.",18248,Utilities,,,,
 "Religare Enterprises",17944,Bank/Finance,,,,
-"Repco Home Finance Ltd.",21999,Bank/Finance,YES,YES,YES,YES
+"Repco Home Finance Ltd.",21999,Bank/Finance,YES,YES,YES,
 "Rico Auto",3272,Auto,YES,,Explore,
-"SBI Life",23887,Insurance,,,,YES
+"Ruby Mills",3322,Manufacturing,YES,,Explore,
+"Rupa & Company Ltd.",21476,General,,,,
+"S H Kelkar and Company Ltd.",23152,General,,,,
+"SBI Life",23887,Insurance,,YES,Explore,YES
 SJVN,20785,Utilities,YES,,Explore,
-"SKF India",3349,Engineering,,,,
-"SML Isuzu",3973,Auto,,YES,Explore,
+"SKF India",3349,Engineering,Explore,,,
+"SML Isuzu",3973,Auto,,,,
 "SNL Bearings",3639,Engineering,YES,YES,YES,
-"SREI Infrastructure Finance",3366,Bank/Finance,YES,YES,YES,Planned
-SRF,3367,Manufacturing,YES,,Explore,
-"Sadbhav Engineering",16530,Engineering,YES,YES,YES,Planned
-"Sanofi India",6796,Chemicals,,Explore,,
+"SP Apparels",23479,Manufacturing,,YES,Explore,
+"SREI Infrastructure Finance",3366,Bank/Finance,YES,YES,YES,
+SRF,3367,Manufacturing,YES,YES,YES,Planned
+"Sadbhav Engineering",16530,Engineering,,,,
+"Sadhana Nitro Chem",3387,Chemicals,YES,YES,YES,
+"Safari Industries",3388,CHemicals,,YES,Explore,
+"Sahyadri Industries",17249,"real Estate",YES,,Explore,
+Saint-Gobain,6092,General,Explore,,,
+Salzer,3412,General,,YES,Explore,
+"Sandhar Technologies",24274,Auto,,YES,Explore,
+"Sanghvi Movers",3446,"Real Estate",,,,
+"Sanofi India",6796,Chemicals,Explore,,,
+"Sarla Performance Fibers",3469,Manufacturing,,,,
 "Sasken Technologies",16034,IT,YES,,Explore,YES
+"Satin Creditcare Network",23099,Bank/Finance,YES,Explore,Explore,
 "Savita Oil Technologies",3488,Chemicals,YES,,Explore,
-"Schaeffler India",1128,Auto,Explore,,,
-"Security and Intelligence Services",23830,Services,,,,
+"Schaeffler India",1128,Auto,,,,
+"Schneider Electric Infrastructure Ltd.",21567,General,,,,
+"Security and Intelligence Services",23830,Services,,YES,Explore,
+"Seshasayee Paper",3521,"consumer Goods",YES,,Explore,
+"Seya Industries",3791,Chemicals,YES,YES,YES,
+"Shaily Engineering Plastics",7860,Services,,YES,Explore,
 "Shakti Pumps (India)",3531,Engineering,YES,YES,YES,
 "Shalimar Paints",3532,Chemicals,,,,
-"Shankara Building",23702,Mines/Mineral,,Explore,,
+"Shankara Building",23702,Mines/Mineral,,YES,Explore,
 "Sharda Cropchem",22558,Chemicals,,YES,Explore,
-"Sharda Motor Industries",22065,Engineering,,YES,Explore,
+"Sharda Motor Industries",22065,Engineering,YES,YES,YES,
+"Sheela Foam Ltd.",23600,General,,YES,Explore,
+"Shilpa Medicare Ltd.",3567,General,,Explore,,
 "Shipping Corp. of India",3571,Services,,,,
+"Shoppers Stop Ltd.",6254,General,,,,
 "Shree Cement",3589,Cement,Explore,YES,YES,
+"Shree Pushkar Chemicals",23121,Chemicals,,YES,Explore,
+"Shree Renuka Sugars Ltd.",16052,"Consumer Goods",,,,
 "Shriram City Union Finance",5372,Bank/Finance,YES,YES,YES,
-"Shriram Transport Finance",3640,Bank/Finance,YES,Explore,Explore,
+"Shriram Transport Finance",3640,Bank/Finance,YES,YES,YES,
 "Sical Logistics",3733,Services,,,,
-Siemens,3656,Engineering,YES,,Explore,
-Sobha,16913,"Real Estate",,,,Planned
-"Solar Industries",16554,Engineering,Explore,,,
-"Somany Ceramics",3364,Chemicals,Explore,Explore,Explore,Planned
-"Sonata Software",5951,IT,YES,YES,YES,YES
+Siemens,3656,Engineering,,,,
+"Siyaram Silk Mills",3691,Manufacturing,YES,,Explore,
+Skipper,22484,Engineering,,YES,Explore,
+"Snowman Logistics Ltd.",22549,Services,,,,
+Sobha,16913,"Real Estate",,YES,Explore,Planned
+"Solar Industries",16554,Engineering,Explore,YES,YES,
+"Somany Ceramics",3364,Chemicals,,,,
+"Sonata Software",5951,IT,Explore,YES,YES,YES
+"South Indian Bank Ltd.",7218,Bank/Finance,,,,
 Spicejet,6850,Services,YES,Explore,Explore,
 Sreeleathers,22062,"Consumer Goods",,YES,Explore,
-"State Bank of India",3820,Bank/Finance,,Explore,,YES
-"Sterlite Technologies",6541,General,Explore,,,
-"Strides Shasun",6185,Pharma,,YES,Explore,
-"Sudarshan Chemicals",3870,Chemicals,Explore,YES,YES,
-"Sun Pharmaceutical Inds.",3887,Pharma,,YES,Explore,YES
+"Srikalahasthi pipe",2190,General,,,,
+"Star Cement Ltd.",23776,Cement,YES,,Explore,
+"Star Paper Mills",3813,"consumer Goods",,,,
+"State Bank of India",3820,Bank/Finance,,,,YES
+"State Trading Corpn. Of India",3823,Services,,,,
+"Steel Authority of India Ltd.",3824,Mines/Mineral,,,,
+"Sterlite Technologies",6541,General,YES,,Explore,
+"Strides Shasun",6185,Pharma,,,,
+Subros,3866,Auto,Explore,YES,YES,
+"Sudarshan Chemicals",3870,Chemicals,YES,Explore,Explore,
+"Sun Pharmaceutical Inds.",3887,Pharma,,,,YES
 "Sun TV Network",16602,General,YES,,Explore,
 "Sundaram Finance",5433,Bank/Finance,YES,YES,YES,
 "Sundram Fasteners",3894,Bank/Finance,YES,,Explore,
 "Sunteck Realty",7639,"Real Estate",YES,YES,YES,Planned
-"Suprajit Eng",5628,Auto,Explore,YES,YES,Planned
-"Supreme Industries",3929,Chemicals,Explore,Explore,Explore,
-"Sutlej Textiles and Industries",17055,Manufacturing,YES,,Explore,Planned
-"Suven Life Sciences",3963,Pharma,YES,,Explore,
-"Suzlon Energy",16048,Utilities,,Explore,,
-"Swaraj Engines",3972,Engineering,Explore,YES,YES,Planned
+"Suprajit Eng",5628,Auto,YES,YES,YES,
+"Supreme Industries",3929,Chemicals,Explore,YES,YES,
+"Supreme Petrochem Ltd.",3931,Chemicals,YES,,Explore,
+"Sutlej Textiles and Industries",17055,Manufacturing,,,,
+"Suven Life Sciences",3963,Pharma,YES,YES,YES,
+"Suzlon Energy",16048,Utilities,,,,
+"Swan Energy Ltd.",3971,General,YES,YES,YES,
+"Swaraj Engines",3972,Engineering,Explore,YES,YES,
+"Swelect Energy Systems",2712,Engineering,,Explore,,
 Symphony,3989,"Consumer Goods",YES,YES,YES,
-"Syngene International",23050,Pharma,YES,YES,YES,Planned
-"TTK Prestige",4007,"Consumer Goods",Explore,,,
-"TVS Motor Co.",6421,Auto,Explore,YES,YES,Planned
-"TVS Srichakra",4010,Auto,YES,,Explore,
+"Syndicate Bank",6614,Bank/Finance,,,,
+"Syngene International",23050,Pharma,,,,YES
+TCI,23500,Services,,,,
+"TTK Prestige",4007,"Consumer Goods",,,,
+"TV Today Network",15738,General,YES,YES,YES,
+"TV18 Broadcast Ltd.",17095,General,,YES,Explore,
+"TVS Electronics",15727,Services,Explore,YES,YES,
+"TVS Motor Co.",6421,Auto,Explore,,,YES
+"TVS Srichakra",4010,Auto,,,,
 "Take Solutions",17604,IT,YES,YES,YES,Planned
-"Talwalkar Fitness",20779,Services,YES,YES,YES,
+"Talwalkar Fitness",20779,Services,YES,,Explore,
+"Tamil Nadu Newsprint & Papers Ltd.",4019,General,YES,,Explore,
+"Tasty Bite Eatables",4031,"Consumer Goods",Explore,YES,YES,
 "Tata Chemicals",4033,Chemicals,YES,,Explore,YES
 "Tata Coffee",6533,"Consumer Goods",,,,
 "Tata Communications",4348,General,,,,
-"Tata Consultancy Services",15850,IT,YES,YES,YES,YES
-"Tata Elxsi",4036,IT,YES,YES,YES,Planned
+"Tata Consultancy Services",15850,IT,YES,Explore,Explore,YES
+"Tata Elxsi",4036,IT,Explore,YES,YES,Planned
 "Tata Global Beverages",4050,General,,,,
-"Tata Investment Corp.",4042,Bank/Finance,YES,,Explore,
-"Tata Metaliks",4044,mines/Mineral,Explore,,,
+"Tata Investment Corp.",4042,Bank/Finance,YES,YES,YES,
+"Tata Metaliks",4044,mines/Mineral,YES,,Explore,
 "Tata Motors",4037,Auto,,,,YES
 "Tata Power",4047,Utilities,,,,
-"Tata Sponge Iron",4049,Mines/Mineral,YES,,Explore,YES
-"Tata Steel",4043,Mines/Mineral,,,,YES
+"Tata Sponge Iron",4049,Mines/Mineral,YES,YES,YES,
+"Tata Steel",4043,Mines/Mineral,YES,,Explore,YES
 "TeamLease Services",23240,Services,,YES,Explore,
-"Tech Mahindra",16800,IT,,YES,Explore,
-"Techno Electric and Engg",4060,Engineering,YES,YES,YES,Planned
-"The New India Assurance",24023,Insurance,,,,
-"The Ramco Cements",2285,Cement,YES,,Explore,
+"Tech Mahindra",16800,IT,YES,Explore,Explore,
+"Techno Electric and Engg",4060,Engineering,,YES,Explore,Planned
+"Texmaco Rail & Eng. Ltd.",21069,Engineering,,,,
+"Thangamayil Jewellery",20656,General,YES,,Explore,
+"The New India Assurance",24023,Insurance,,YES,Explore,
+"The Ramco Cements",2285,Cement,YES,YES,YES,
 Thermax,4090,Engineering,,,,
-"Thomas Cook (India)",4094,Services,,YES,Explore,
-"Thyrocare Technologies",23353,Services,YES,YES,YES,Planned
-"Tide Water Oil Co. (India)",5492,General,YES,,Explore,
-"Timken India",4052,Engineering,Explore,,,
-Tinplate,4102,Mines/Mineral,Explore,,,
-"Titan Company",4114,General,Explore,,,
-"Torrent Pharmaceuticals",4126,Pharma,,YES,Explore,
+"Thirumalai Chemicals",4093,Chemicals,YES,YES,YES,
+"Thomas Cook (India)",4094,Services,YES,YES,YES,
+"Thyrocare Technologies",23353,Services,YES,YES,YES,
+"Tide Water Oil Co. (India)",5492,General,YES,YES,YES,
+"Time Technoplast",5493,Chemicals,YES,YES,YES,
+"Timken India",4052,Engineering,,YES,Explore,
+Tinplate,4102,Mines/Mineral,YES,YES,YES,
+"Titagarh Wagons",18632,"Consumer Goods",,YES,Explore,
+"Titan Company",4114,General,Explore,YES,YES,
+"Torrent Pharmaceuticals",4126,Pharma,,,,
 "Torrent Power",17005,Utilities,YES,,Explore,
-Trent,2176,General,Explore,,,
-Trident,46,Manufacturing,YES,YES,YES,YES
+Trent,2176,General,Explore,YES,YES,
+Trident,46,Manufacturing,YES,,Explore,
 "Triveni Turbine",21350,Engineering,,,,
-"Tube investment",4170,Auto,Explore,,,
+"Tube investment",23857,Auto,,,,
+"UCO Bank",15704,Bank/Finance,,,,
 UFLEX,1172,Chemicals,YES,,Explore,
+"UFO Moviez India",22894,Services,,,,
 UPL,5331,Chemicals,YES,YES,YES,YES
 "Ujjivan Financial Services",22699,Bank/Finance,,,,YES
-"Ultratech Cement",15812,Cement,Explore,,,YES
+"Ultratech Cement",15812,Cement,Explore,YES,YES,YES
 "Unichem Laboratories",4206,Pharma,,YES,Explore,
+"Union Bank of India",6221,Bank/Finance,,,,
+"Uniphos Enterprises",4234,Chemicals,YES,YES,YES,
+"Unitech Ltd.",4226,General,,,,
+"United Bank of India",7413,General,,,,
+"United Breweries Ltd.",7939,General,,,,
+"United Spirits Ltd.",2407,General,,,,
 "Usha Martin",4252,Mines/Mineral,,,,
-"V-Guard Industries",18410,General,,YES,Explore,YES
+"V-Guard Industries",18410,General,Explore,,,YES
 "VA Tech Wabag",21004,Engineering,,YES,Explore,
-"VIP Industries",4270,General,Explore,,,
+"VIP Industries",4270,General,Explore,YES,YES,
 "VRL Logistics",22886,Services,,,,
-"VST Industries",4274,"Consumer Goods",,,,
-"VST Tillers Tractors",4275,Engineering,YES,,Explore,
-Vakrangee,4286,IT,Explore,YES,YES,Planned
-"Vardhman Textiles",2316,Manufacturing,YES,,Explore,Planned
+"VST Industries",4274,"Consumer Goods",Explore,,,
+"VST Tillers Tractors",4275,Engineering,YES,YES,YES,
+Vakrangee,4286,IT,,YES,Explore,
+"Vardhman Special Steels",21185,Mines/Mineral,YES,,Explore,
+"Vardhman Textiles",2316,Manufacturing,,,,Planned
+"Varroc Engineering Pvt",23180,Auto,,YES,Explore,
 "Varun Beverages",23577,"Consumer Goods",,,,
-Vedanta,3520,Mines/Mineral,,Explore,,YES
-"Veto Switchgears and Cables",21869,Engineering,,YES,Explore,YES
+Vedanta,3520,Mines/Mineral,,YES,Explore,YES
+"Vesuvius India Ltd.",4334,General,YES,YES,YES,
+"Veto Switchgears and Cables",21869,Engineering,YES,YES,YES,YES
+"Videocon Industries Ltd.",4345,General,,,,
+"Vijaya Bank",5556,Bank/Finance,,,,
 "Vinati Organics",4371,Chemicals,YES,,Explore,YES
-"Voltamp Transformers",16857,Engineering,YES,YES,YES,Planned
+"Vodafone Idea",6883,Services,,,,
+"Voith Paper Fabrics",2875,manufacturing,,,,
+"Voltamp Transformers",16857,Engineering,YES,,Explore,
 Voltas,4414,General,Explore,,,
 "Wabco India",18640,Engineering,,YES,Explore,
-"Websol Energy Systems",4434,Utilities,YES,Explore,Explore,
-"Welspun India",4441,Engineering,YES,YES,YES,
+"Websol Energy Systems",4434,Utilities,YES,,Explore,
+"Welspun Corp Ltd.",5755,General,YES,Explore,Explore,
+"Welspun India",4441,Engineering,,,,
+"West Coast Paper",4445,"consumer Goods",YES,,Explore,
+"Westlife Development",4716,Services,,YES,Explore,
+"Wheels India",5579,Auto,Explore,YES,YES,
 Whirlpool,4458,"Consumer Goods",Explore,YES,YES,
-"Wim Plast",4469,Chemicals,Explore,,,
+"Wim Plast",4469,Chemicals,,,,
 Wipro,4475,IT,,,,
+"Wockhardt Ltd.",4479,General,,,,
 "Yes Bank",15907,Bank/Finance,YES,YES,YES,YES
-"Zee Entertainment Ent.",4505,General,YES,YES,YES,YES
-"Zensar Technologies",1196,IT,YES,,Explore,YES
-"Zydus Wellness",7997,"Consumer Goods",YES,,Explore,
-"eClerx Services",18075,IT,YES,YES,YES,
+"Zee Entertainment Ent.",4505,General,YES,Explore,Explore,YES
+"Zee Learn Ltd.",21041,General,YES,YES,YES,
+"Zensar Technologies",1196,IT,YES,,Explore,
+"Zydus Wellness",7997,"Consumer Goods",YES,YES,YES,
+"eClerx Services",18075,IT,YES,Explore,Explore,
+"wonderla holidays",22392,General,,YES,Explore,

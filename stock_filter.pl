@@ -27,17 +27,38 @@ GetOptions ( "name=s"   => \$name,    # numeric
            or die("Error in command line arguments\n");
 
 my @stock_records       = read_records_file();
+my @cagr_records        = read_cagr_recors();
 my @filtered_results    = filter_records(@stock_records);
 
 print_records(@filtered_results);
 
 sub read_records_file {
-    my $parser = Text::CSV::Simple->new();
-    $parser->field_map(qw/Name Code industry MyView price change change_perc volume PE 
+    my $parser1 = Text::CSV::Simple->new();
+    $parser1->field_map(qw/Name Code industry MyView price change change_perc volume PE 
                           PB Cap Revenue Profit NetMargin ROE 1M 3M 1Y 3Y 5Y 10Y/);
-    my @data = $parser->read_file("Reports/stock_report.csv");
-    
+    my @data    = $parser1->read_file("Reports/stock_report.csv");
+       
     return @data;    
+}
+
+sub read_cagr_recors {
+    my $parser2     = Text::CSV::Simple->new();
+    $parser2->field_map(qw/ Name code myView DebtToEqity CurrentRato CAGR_1 CAGR_2 CAGR_3 CAGR_4 CAGR_5 CAGR_6 /);
+    my @data_cagr   = $parser2->read_file("Reports/stock_cagr_report.csv");
+    
+    return @data_cagr;
+}
+
+sub get_cagr_record {
+    my ($code)    = @_;
+    #print $code, "\n";
+    foreach my $rec (@cagr_records) {
+        if($rec->{code} eq $code) {
+            return $rec;
+        }    
+    }
+    
+    return {};
 }
 
 sub filter_records {
@@ -144,20 +165,24 @@ sub master_filter {
 sub print_records {
     my (@records) = @_;
     
-    my $header  = sprintf ("\n%-20s %-10s %10s %9s %7s %11s %7s %7s  %12s %9s %7s %7s %7s %7s %7s\n", 
-                  "Name", 'Industry','Price  ', 'Change ', 'Ch %', ' Volume', '  PE ', ' PB ', 'M-Cap  ', 'Margin ', "ROE ", "1Y  ", "3Y  ", "5Y  ", "10Y ");
-    print $header;
+    my $header1  = sprintf ("\n%-20s %-10s %10s %9s %7s %11s %7s %7s  %12s %7s %7s %7s %5s\n", 
+                  "Name", 'MyOpinion', 'Price  ', 'Change ', 'Ch %', ' Volume', '  PE ', ' PB ', 'M-Cap  ', "1Y  ", "3Y  ", "5Y  ", "10Y");
+    my $header2  = sprintf ("%-20s %-10s\n", 
+                  "Industry", 'MyOpinion');
+    print $header1;
+    print $header2;
     
-    print("-" x 151, "\n");
+    print("-" x 135, "\n");
     if(scalar(@records) == 0) {
         print "No record matches your search\n\n\n";
         return;
     }
     foreach my $rec (@records) {
         next if ($rec->{Name} eq 'Name');
-        my $record_line    = sprintf ("%-20s %-10s %10s %9s %5.2f%1s %11s %7s %7s %12s %9s %7s %7s %7s %7s %7s\n", 
+        my $record_line1   = sprintf ("%-20s %7s %s %10s %9s %5.2f%1s %11s %7s %7s %12s %7s %7s %7s %7s\n", 
             substr($rec->{Name},0,20),
-            substr($rec->{industry},0,10),
+            $rec->{MyView},
+            '   ',
             $rec->{price},
             $rec->{change},
             decommify($rec->{change_perc}),
@@ -166,15 +191,20 @@ sub print_records {
             $rec->{PE},
             $rec->{PB},
             $rec->{Cap},
-            $rec->{NetMargin},
-            $rec->{ROE},
             $rec->{'1Y'},
             $rec->{'3Y'},
             $rec->{'5Y'},
             $rec->{'10Y'}
         );
-        print $record_line;
-        print("-" x 151, "\n");
+        
+        my $cagr_rec        = get_cagr_record($rec->{Code});                
+        my $record_line2    = sprintf ("%-20s %7s\n", 
+            substr($rec->{industry},0,20),
+            $cagr_rec->{myView},
+        );
+        print $record_line1;
+        print $record_line2;
+        print("-" x 135, "\n");
     }
 }
 
