@@ -13,8 +13,17 @@ use HTML::TreeBuilder::XPath;
 use Text::CSV;
 use Text::CSV::Simple;
 
-my $csv = Text::CSV->new();
+my @raw_data;
+my @failed_raw_data;
+if($ARGV[0]) {
+    foreach my $code (@ARGV) {
+        push (@raw_data, { 'code' => $code, 'industry' => 'General'})
+    }
+} else {
+    @raw_data = get_records();
+}
 
+my $csv = Text::CSV->new();
 my $csv_writer = Class::CSV->new(
     fields          => [
         qw/Name Code Industry MyView price Change Change% Volume PE PB Cap Revenue Profit NetMargin ROE 1M 3M 1Y 3Y 5Y 10Y/ ],
@@ -26,32 +35,39 @@ $csv_writer->add_line([
     'NetMargin', 'ROE', '1M','3M','1Y','3Y','5Y','10Y'
 ]);
 
-my @raw_data    = get_records();
 my $count = 0;
 foreach my $rec (@raw_data) {
     next if  $rec->{ 'code' }  =~ /\D/;
     $count++;   
     try {
-        my $record  = get_content($rec->{ 'name'}, $rec->{ 'code' }, $rec->{ 'industry'});
+        my $record  = get_content($rec->{ 'code' }, $rec->{ 'industry'});
         add_record($csv_writer, $record, $rec->{ 'code' });
     }
     catch {
-	try {        
-		sleep(5);
-		print $_, "Something went wrong while fetching ", $rec->{ 'name' }, "\n";
-		my $record  = get_content($rec->{ 'name'}, $rec->{ 'code' }, $rec->{ 'industry'}, $rec->{ 'myOpinion'});
-		add_record($csv_writer, $record, $rec->{ 'code' });
-    
-	};
+	    try {
+		    print $_, "Something went wrong while fetching ", $rec->{ 'name' }, "\n";
+		    push(@failed_raw_data, $rec)
+		    #my $record  = get_content($rec->{ 'code' }, $rec->{ 'industry'});
+		    #add_record($csv_writer, $record, $rec->{ 'code' });        
+	    };
     };
-
-    #last if $count == 100;   
 }
 
-#open(CFILE,">>","stock_report.csv");
-open(CFILE,">","Reports/stock_report.csv");
-print CFILE $csv_writer->string();   
-close CFILE;
+foreach my $rec (@failed_raw_data) {  
+    try {
+        my $record  = get_content($rec->{ 'code' }, $rec->{ 'industry'});
+        add_record($csv_writer, $record, $rec->{ 'code' });
+    };
+}
+
+if($ARGV[0]) {
+    print $csv_writer->string();
+} else {
+    #open(CFILE,">>","stock_report.csv");
+    open(CFILE,">","Reports/stock_report.csv");
+    print CFILE $csv_writer->string();   
+    close CFILE;
+}
 
 sub add_record { 
     my ($csv_writer, $record, $code) = @_;
@@ -84,12 +100,12 @@ sub add_record {
 }
 
 sub get_content {
-    my ($stock_name, $stock_code, $stock_ind) = @_;
+    my ($stock_code, $stock_ind) = @_;
     
     my $mech = WWW::Mechanize->new();
     my $response    = $mech->get("https://www.valueresearchonline.com");
     #print Dumper $response->decoded_content;
-    sleep(5);
+    sleep(1);
     my $stock_url   = "https://www.valueresearchonline.com/stocks/snapshot.asp?code=".$stock_code;
     $response    = $mech->get($stock_url);
 

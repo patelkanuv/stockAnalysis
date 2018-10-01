@@ -12,6 +12,16 @@ use WWW::Mechanize;
 use HTML::TreeBuilder::XPath;
 use Text::CSV::Simple;
 
+my @raw_data;
+if($ARGV[0]) {
+    foreach my $code (@ARGV) {
+        push (@raw_data, { code => $code})
+    }
+}
+else {
+    @raw_data = get_records();
+}
+
 my $csv_writer = Class::CSV->new(
     fields          => [qw/Name code myView DebtToEqity CurrentRato CAGR_1 CAGR_2 CAGR_3 CAGR_4 CAGR_5 CAGR_6/],
     line_separator  => "\r\n"
@@ -19,7 +29,7 @@ my $csv_writer = Class::CSV->new(
 
 $csv_writer->add_line([ 'Name', 'Code', 'MyOpinion', 'DebtToEqity', 'CurrentRato', 'CAGR 1 Year', 
                         'CAGR 2 Year', 'CAGR 3 Year','CAGR 4 Year', 'CAGR 5 Year', 'CAGR 6 Year' ]);
-my @raw_data    = get_records();
+
 
 my $cnt = 1;
 foreach my $rec (@raw_data) {
@@ -28,7 +38,6 @@ foreach my $rec (@raw_data) {
     try {
         my $record  = get_content($rec->{ 'code' });
         add_record($csv_writer, $record, $rec->{ 'code' });
-        sleep(1);
     }
     catch {
         try {
@@ -40,9 +49,13 @@ foreach my $rec (@raw_data) {
     };  
 }
 
-open(CFILE,">","Reports/stock_cagr_report.csv");
-print CFILE $csv_writer->string();   
-close CFILE;
+if($ARGV[0]) {
+    print $csv_writer->string();
+} else {
+    open(CFILE,">","Reports/stock_cagr_report.csv");
+    print CFILE $csv_writer->string();   
+    close CFILE;
+}
 
 sub add_record { 
     my ($csv_writer, $record, $code ) = @_;
@@ -69,7 +82,7 @@ sub get_content {
     my $mech = WWW::Mechanize->new();
     my $response    = $mech->get("https://www.valueresearchonline.com");
     #print Dumper $response->decoded_content;
-    sleep(5);
+    sleep(1);
     $response    = $mech->get("https://www.valueresearchonline.com/stocks/Finnance_Annual.asp?code=".$code);
 
     if ($response->is_success) {
